@@ -7,7 +7,8 @@ allASINs = ['B0DF1L929C']
 #################################################################
 #Define the class that will create the objects for each flavor
 class Single_Amazon_Item:
-  def __init__(self, name, price, discount):
+  def __init__(self, image, name, price, discount):
+    self.image = image
     self.name = name
     self.price = price
     self.discount = precentOff
@@ -35,7 +36,7 @@ for item in allASINs:
         precentOff = "Not on Sale"
     
     #Create the basic item object. This uses Single_Amazon_Item class to create the object. It has a name, price, and discount property
-    single_item = Single_Amazon_Item(ItemOutDict["item_specifications"]["flavor"], ItemOutDict["product_results"]["extracted_price"], precentOff)
+    single_item = Single_Amazon_Item(ItemOutDict["product_results"]["thumbnails"][0], ItemOutDict["item_specifications"]["flavor"], ItemOutDict["product_results"]["extracted_price"], precentOff)
 
     #Print the results
     print(single_item.name, single_item.price, single_item.discount)
