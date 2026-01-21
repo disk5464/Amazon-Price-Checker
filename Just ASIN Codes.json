@@ -1,0 +1,87 @@
+ 'asin': 'B0DF1L929C',
+ 'name': "Welch's Grape",
+ 'serpapi_link': 'https: //serpapi.com/search.json?amazon_domain=amazon.com&asin=B0DF1L929C&device=desktop&engine=amazon_product'},
+
+ 'asin': 'B0GFC458B3',
+ 'name': 'Blue Raspberry',
+ 'serpapi_link': 'https: //serpapi.com/search.json?amazon_domain=amazon.com&asin=B0GFC458B3&device=desktop&engine=amazon_product'},
+
+ 'asin': 'B0FJVHTYK3',
+ 'name': 'Original',
+ 'serpapi_link': 'https: //serpapi.com/search.json?amazon_domain=amazon.com&asin=B0FJVHTYK3&device=desktop&engine=amazon_product'},
+
+ 'asin': 'B09YGL4BCM',
+ 'name': 'Sour Patch Kids Blue Raspberry',
+ 'serpapi_link': 'https: //serpapi.com/search.json?amazon_domain=amazon.com&asin=B09YGL4BCM&device=desktop&engine=amazon_product'},
+
+ 'asin': 'B08MWBFMX5',
+ 'name': 'Sour Patch Kids Redberry',
+ 'selected': True,
+ 'serpapi_link': 'https: //serpapi.com/search.json?amazon_domain=amazon.com&asin=B08MWBFMX5&device=desktop&engine=amazon_product'},
+
+ 'asin': 'B09YG6LN3W',
+ 'name': 'Swedish Fish',
+ 'serpapi_link': 'https: //serpapi.com/search.json?amazon_domain=amazon.com&asin=B09YG6LN3W&device=desktop&engine=amazon_product'},
+
+ 'asin': 'B0DQ6ZFD98',
+ 'name': 'Warheads Sour Black Cherry',
+ 'serpapi_link': 'https: //serpapi.com/search.json?amazon_domain=amazon.com&asin=B0DQ6ZFD98&device=desktop&engine=amazon_product'},
+
+ 'asin': 'B0BHKR7Z4L',
+ 'name': 'Warheads Sour Green Apple',
+ 'serpapi_link': 'https: //serpapi.com/search.json?amazon_domain=amazon.com&asin=B0BHKR7Z4L&device=desktop&engine=amazon_product'},
+
+ 'asin': 'B08MW9LXK7',
+ 'name': 'Warheads Sour Watermelon',
+ 'serpapi_link': 'https: //serpapi.com/search.json?amazon_domain=amazon.com&asin=B08MW9LXK7&device=desktop&engine=amazon_product'}]},
+
+
+
+
+
+
+
+ ################################
+ 'asin': 'B0GFBTJ1ZN',
+ 'name': "Welch's Grape-Cran",
+ 'serpapi_link': 'https: //serpapi.com/search.json?amazon_domain=amazon.com&asin=B0GFBTJ1ZN&device=desktop&engine=amazon_product'},
+
+ 'asin': 'B0DZRW6P11',
+ 'name': 'Peaches',
+ 'serpapi_link': 'https: //serpapi.com/search.json?amazon_domain=amazon.com&asin=B0DZRW6P11&device=desktop&engine=amazon_product'},
+
+ 'asin': 'B0CG1CV9T6',
+ 'name': 'Sour Pink Lemonade',
+ 'serpapi_link': 'https: //serpapi.com/search.json?amazon_domain=amazon.com&asin=B0CG1CV9T6&device=desktop&engine=amazon_product'},
+
+ 'asin': 'B0FPPLS4PX',
+ 'name': 'Sour Strips Rainbow',
+ 'serpapi_link': 'https: //serpapi.com/search.json?amazon_domain=amazon.com&asin=B0FPPLS4PX&device=desktop&engine=amazon_product'},
+
+ 'asin': 'B0DWV3SZWG',
+ 'name': 'Strawbango',
+ 'serpapi_link': 'https: //serpapi.com/search.json?amazon_domain=amazon.com&asin=B0DWV3SZWG&device=desktop&engine=amazon_product'},
+
+ 'asin': 'B08MWBTC42',
+ 'name': 'Tropical Mango',
+ 'serpapi_link': 'https: //serpapi.com/search.json?amazon_domain=amazon.com&asin=B08MWBTC42&device=desktop&engine=amazon_product'},
+
+  'asin': 'B0BR96LQ8B',
+ 'name': 'Cherry Limeade',
+ 'serpapi_link': 'https: //serpapi.com/search.json?amazon_domain=amazon.com&asin=B0BR96LQ8B&device=desktop&engine=amazon_product'},
+
+ 'asin': 'B08MW95QC9',
+ 'name': 'Citrus',
+ 'serpapi_link': 'https: //serpapi.com/search.json?amazon_domain=amazon.com&asin=B08MW95QC9&device=desktop&engine=amazon_product'},
+
+ 'asin': 'B0F8CY535T',
+ 'name': 'Iced Tea Lemonade',
+ 'serpapi_link': 'https: //serpapi.com/search.json?amazon_domain=amazon.com&asin=B0F8CY535T&device=desktop&engine=amazon_product'},
+
+ 'asin': 'B0BV63PBGB',
+ 'name': 'Merica Pop',
+ 'serpapi_link': 'https: //serpapi.com/search.json?amazon_domain=amazon.com&asin=B0BV63PBGB&device=desktop&engine=amazon_product'},
+
+ 'asin': 'B09YGDKGDW',
+ 'name': 'Orange Cream',
+ 'serpapi_link': 'https: //serpapi.com/search.json?amazon_domain=amazon.com&asin=B09YGDKGDW&device=desktop&engine=amazon_product'},
