@@ -1,13 +1,12 @@
 #Version 1.0: Initial Commit
 #Version 1.1: Removed the sempai specific data filtering in place of regular json parsing. This will make it so that if the app needs to be restarted it can just use the existing files and not have to re scrap amazon
 #################################################################
-import json, os
+import json, os, serpapi
 import streamlit as st
 import pandas as pd
 import importlib.util
 from pathlib import Path
 from datetime import datetime
-import serpapi
 
 #################################################################
 #Set an array of all of the items we want to search. 
