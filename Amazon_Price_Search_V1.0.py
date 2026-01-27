@@ -1,10 +1,17 @@
-import serpapi, json
+import serpapi, json, os
 
 #################################################################
 #Set an array of all of the items we want to search. 
 allASINs = ['B0DF1L929C']
 
 #################################################################
+#Define a function that will figure out where the script is running. This is used to get the folder path for the output json
+def get_base_dir():
+    try:
+        return os.path.dirname(os.path.abspath(__file__))
+    except NameError:
+        return os.getcwd()
+
 #Define the class that will create the objects for each flavor
 class Single_Amazon_Item:
   def __init__(self, image, name, price, discount):
@@ -18,13 +25,22 @@ def get_percentage_decrease(price, msrp):
     return ((price - msrp) / msrp) * 100
 
 #################################################################
+#This section will get the scirpt's directory, make a FDQN path out of it, then if the json out put directory dosen't exist make it. 
+base_dir = get_base_dir()
+output_dir = os.path.join(base_dir, "current_ASINs")
+os.makedirs(output_dir, exist_ok=True)
+
+#################################################################
 for item in allASINs:
     #Print the item, then run the search and save the results to ItemOut
     params = {"engine": "amazon_product","asin": item,"api_key": "6ff7d4ee7fc220f3cb61b8b924b7fec16e93352dacf2f187198d857e7950492f"}
     serpapiObject = serpapi.search(params)
     
-    #Convert the serpapi object into a normal dictionary. Then convert to json. This makes it so it can be copy pasted without a bunch of formating issues
+    #Convert the serpapi object into a normal dictionary. Then convert to json and save it to a file.
     ItemOutDict = serpapiObject.as_dict()
+    output_path = os.path.join(output_dir, f"{item}.json")
+    with open(output_path, "w", encoding="utf-8") as f:
+        json.dump(ItemOutDict, f, indent=2, ensure_ascii=False)
     
     #Check if the current price is lower than the MSRP ($30.00)
     if( (ItemOutDict["product_results"]["extracted_price"]) < 29.99):
