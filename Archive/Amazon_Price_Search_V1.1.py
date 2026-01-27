@@ -31,7 +31,7 @@ os.makedirs(output_dir, exist_ok=True)
 #This for loop will scrape amazon for each product page and export it to a json file
 for item in allASINs:
     #Print the item, then run the search and save the results to ItemOut
-    params = {"engine": "amazon_product","asin": item,"api_key": "6ff7d4ee7fc220f3cb61b8b924b7fec16e93352dacf2f187198d857e7950492f"}
+    params = {"engine": "amazon_product","asin": item,"api_key": ""}
     serpapiObject = serpapi.search(params)
     
     #Convert the serpapi object into a normal dictionary. Then convert to json and save it to a file.
