@@ -85,3 +85,13 @@
  'asin': 'B09YGDKGDW',
  'name': 'Orange Cream',
  'serpapi_link': 'https: //serpapi.com/search.json?amazon_domain=amazon.com&asin=B09YGDKGDW&device=desktop&engine=amazon_product'},
+
+
+
+
+################################
+#Asin codes Im actually searching
+asin_codes = ["B0DF1L929C", "B0GFC458B3", "B0FJVHTYK3", "B09YGL4BCM", "B08MWBFMX5", "B09YG6LN3W", "B0DQ6ZFD98", "B0BHKR7Z4L", "B08MW9LXK7"]
+
+#All of the asin codes in an array 
+asin_codes = ["B0DF1L929C", "B0GFC458B3", "B0FJVHTYK3", "B09YGL4BCM", "B08MWBFMX5", "B09YG6LN3W", "B0DQ6ZFD98", "B0BHKR7Z4L", "B08MW9LXK7", "B0GFBTJ1ZN", "B0DZRW6P11", "B0CG1CV9T6", "B0FPPLS4PX", "B0DWV3SZWG", "B08MWBTC42", "B0BR96LQ8B", "B08MW95QC9", "B0F8CY535T", "B0BV63PBGB", "B09YGDKGDW"]

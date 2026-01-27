@@ -6,6 +6,7 @@ from pathlib import Path
 
 #################################################################
 #Set an array of all of the items we want to search. 
+#asin_codes = ["B0DF1L929C", "B0GFC458B3", "B0FJVHTYK3", "B09YGL4BCM", "B08MWBFMX5", "B09YG6LN3W", "B0DQ6ZFD98", "B0BHKR7Z4L", "B08MW9LXK7"]
 allASINs = ['B0DF1L929C']
 
 #################################################################
