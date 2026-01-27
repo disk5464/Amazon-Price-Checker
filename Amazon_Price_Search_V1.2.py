@@ -7,37 +7,7 @@ import pandas as pd
 import importlib.util
 from pathlib import Path
 from datetime import datetime
-
-import importlib.util
-import sys
-import subprocess
-
-package_name = 'serpapi' # Replace with package name
-
-spec = importlib.util.find_spec(package_name)
-
-if spec is None:
-    print(f"Package '{package_name}' is NOT installed.")
-    print(f"Attempting to install '{package_name}' using pip...")
-    try:
-        python_executable = sys.executable
-        subprocess.check_call(
-            [python_executable, '-m', 'pip', 'install', package_name],
-            stdout=subprocess.DEVNULL,
-            stderr=subprocess.DEVNULL
-        )
-        print(f"Successfully installed '{package_name}'.")
-    except subprocess.CalledProcessError as e:
-        print(f"Failed to install '{package_name}'. Error: {e}")
-    except Exception as e:
-        print(f"An unexpected error occurred during installation: {e}")
-else:
-    print(f"Package '{package_name}' is already installed.")
-    
-if importlib.util.find_spec(package_name):
-    import serpapi
-else:
-   print("serpapi installation failed, can not proceed.")
+import serpapi
 
 #################################################################
 #Set an array of all of the items we want to search. 
@@ -110,6 +80,7 @@ for path in paths:
 
     #################################################################
     #Set a variable for the URL to the item's amazon page
+    asin = pr.get("asin")
     amazon_url = f"https://www.amazon.com/dp/{asin}/" if asin else None
     
     #################################################################
