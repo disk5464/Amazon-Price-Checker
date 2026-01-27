@@ -88,7 +88,8 @@ for path in paths:
         "image": first_thumbnail,
         "item_name": specs.get("flavor"),
         "current_price": pr.get("extracted_price"),
-        "precent_off": percentOff
+        "precent_off": percentOff,
+        "URL": amazon_url
     })
 #################################################################
 #This section will build the streamlit web page. First start by setting the CSS of each section
@@ -168,16 +169,39 @@ for r in rows:
     #Declair variables for each column 
     c1, c2, c3, c4 = st.columns(4)
 
-    #For the image column, if the input data ("image": first_thumbnail) is an image insert it and set it's width to 200 if not just show a dash
+    #For the image column, if the input data ("image": first_thumbnail) and the URL ("URL": amazon_url) is populated the image and make it a cliclable link to the amazon page. If not just show a dash
     with c1:
-        if r.get("image"):
-            st.image(r["image"], width=200)
+        #Set the image and url to local variables
+        img = r.get("image")
+        url = r.get("URL")  # note: your key is "URL" (uppercase)
+        
+        #If the image and url both exist
+        if img and url:
+            #Set the image to have the url imbeaded in it. This makes it clickable.
+            st.markdown(
+                f"""
+                <a href="{url}" target="_blank" rel="noopener noreferrer">
+                    <img src="{img}" style="width:200px; height:auto; border-radius:8px;" />
+                </a>
+                """,
+                unsafe_allow_html=True
+            )
+        elif img:
+            st.image(img, width=200)
         else:
             st.write("—")
 
     #For the item name column, pass in the item name, if its missing just display unknown
     with c2:
-        st.markdown(f"<div class='cell'>{r.get('item_name', 'Unknown')}</div>", unsafe_allow_html=True)
+        #Get the item name and product URL (Same as C1) and set them to variables
+        name = r.get("item_name", "Unknown")
+        url = r.get("URL")
+        
+        #if they both exist make the name a clickable link, if the url is missing just display the name
+        if url:
+            st.markdown(f"<div class='cell'><a href='{url}' target='_blank'>{name}</a></div>", unsafe_allow_html=True)
+        else:
+            st.markdown(f"<div class='cell'>{name}</div>", unsafe_allow_html=True)
 
     #For the current price column, check the price, if it is on sale make it green, MSRP make it white, Overpriced, make it red
     with c3:
