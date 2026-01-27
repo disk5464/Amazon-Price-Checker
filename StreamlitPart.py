@@ -209,3 +209,7 @@ for r in rows:
 
     #Add the line between each row
     st.markdown("<hr style='margin: 6px 0;'>", unsafe_allow_html=True)
+
+
+test = st.write(st.secrets["api_key"])
+print(test)
