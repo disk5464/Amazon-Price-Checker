@@ -8,6 +8,12 @@ import importlib.util
 from pathlib import Path
 from datetime import datetime
 
+#Import the API key from the secrets.toml file. Run a check to make sure it actually worked.
+SERPAPI_API_KEY = st.secrets["SERPAPI_API_KEY"]
+if "SERPAPI_API_KEY" not in st.secrets:
+    st.error("Missing SERPAPI_API_KEY in Streamlit secrets.")
+    st.stop()
+
 #################################################################
 #Set an array of all of the items we want to search. 
 #asin_codes = ["B0DF1L929C", "B0GFC458B3", "B0FJVHTYK3", "B09YGL4BCM", "B08MWBFMX5", "B09YG6LN3W", "B0DQ6ZFD98", "B0BHKR7Z4L", "B08MW9LXK7"]
@@ -34,7 +40,7 @@ os.makedirs(output_dir, exist_ok=True)
 #This for loop will scrape amazon for each product page and export it to a json file
 for item in allASINs:
     #Print the item, then run the search and save the results to ItemOut
-    params = {"engine": "amazon_product","asin": item,"api_key": "6ff7d4ee7fc220f3cb61b8b924b7fec16e93352dacf2f187198d857e7950492f"}
+    params = {"engine": "amazon_product","asin": item,"api_key": SERPAPI_API_KEY}
     serpapiObject = serpapi.search(params)
     
     #Convert the serpapi object into a normal dictionary. Then convert to json and save it to a file.
