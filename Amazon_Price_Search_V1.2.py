@@ -8,24 +8,41 @@ import importlib.util
 from pathlib import Path
 from datetime import datetime
 
+import importlib.util
+import sys
+import subprocess
+
 package_name = 'serpapi' # Replace with package name
 
-# find_spec returns a ModuleSpec object if found, None otherwise
 spec = importlib.util.find_spec(package_name)
 
 if spec is None:
-    print(f"Package '{package_name}' is NOT installed (or cannot be found).")
+    print(f"Package '{package_name}' is NOT installed.")
+    print(f"Attempting to install '{package_name}' using pip...")
+    try:
+        python_executable = sys.executable
+        subprocess.check_call(
+            [python_executable, '-m', 'pip', 'install', package_name],
+            stdout=subprocess.DEVNULL,
+            stderr=subprocess.DEVNULL
+        )
+        print(f"Successfully installed '{package_name}'.")
+    except subprocess.CalledProcessError as e:
+        print(f"Failed to install '{package_name}'. Error: {e}")
+    except Exception as e:
+        print(f"An unexpected error occurred during installation: {e}")
 else:
-    print(f"Package '{package_name}' is installed.")
-    # The spec object contains metadata if needed:
-    print(f"  Location: {spec.origin}")
-
+    print(f"Package '{package_name}' is already installed.")
+    
+if importlib.util.find_spec(package_name):
+    import serpapi
+else:
+   print("serpapi installation failed, can not proceed.")
 
 #################################################################
 #Set an array of all of the items we want to search. 
 #asin_codes = ["B0DF1L929C", "B0GFC458B3", "B0FJVHTYK3", "B09YGL4BCM", "B08MWBFMX5", "B09YG6LN3W", "B0DQ6ZFD98", "B0BHKR7Z4L", "B08MW9LXK7"]
 allASINs = ['B0DF1L929C']
-
 #################################################################
 #Define a function that will figure out where the script is running. This is used to get the folder path for the output json
 def get_base_dir():
