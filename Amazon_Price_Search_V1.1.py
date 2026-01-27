@@ -75,9 +75,14 @@ for path in paths:
         percentOff = "Not on Sale"
 
     #################################################################
+    #Set a variable for the URL to the item's amazon page
+    amazon_url = f"https://www.amazon.com/dp/{asin}/" if asin else None
+    
+    #################################################################
     #Create the "table" with each row being a differen json file and its extracted data
     rows.append({
         "asin": pr.get("asin"),
+        "amazon_url": amazon_url,
         "item_name": specs.get("flavor"),
         "current_price": pr.get("extracted_price"),
         "precent_off": percentOff,
