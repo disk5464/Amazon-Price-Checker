@@ -1,0 +1,949 @@
+{
+  "search_metadata": {
+    "id": "6979546efbbeb5b7d6d24ba5",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/a9dda48f92512d7e/6979546efbbeb5b7d6d24ba5.json",
+    "created_at": "2026-01-28 00:12:30 UTC",
+    "processed_at": "2026-01-28 00:12:30 UTC",
+    "amazon_product_url": "https://www.amazon.com/dp/B0DQ6ZFD98/?",
+    "raw_html_file": "https://serpapi.com/searches/a9dda48f92512d7e/6979546efbbeb5b7d6d24ba5.html",
+    "total_time_taken": 1.68
+  },
+  "search_parameters": {
+    "engine": "amazon_product",
+    "asin": "B0DQ6ZFD98",
+    "amazon_domain": "amazon.com",
+    "device": "desktop"
+  },
+  "product_results": {
+    "asin": "B0DQ6ZFD98",
+    "title": "GHOST Energy Drink - 12-Pack, Electric Limeade, 16oz Cans - Energy & Focus & No Artificial Colors - 200mg of Natural Caffeine, L-Carnitine & Taurine - Gluten-Free & Vegan",
+    "variants": [
+      {
+        "title": "Flavor Name",
+        "items": [
+          {
+            "position": 1,
+            "asin": "B0DF1L929C",
+            "name": "Welch's Grape",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0DF1L929C&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 2,
+            "asin": "B0BR96LQ8B",
+            "name": "Cherry Limeade",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0BR96LQ8B&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 3,
+            "asin": "B08MW95QC9",
+            "name": "Citrus",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B08MW95QC9&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 4,
+            "asin": "B0BV63PBGB",
+            "name": "Merica Pop",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0BV63PBGB&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 5,
+            "asin": "B09YGDKGDW",
+            "name": "Orange Cream",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B09YGDKGDW&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 6,
+            "asin": "B0FJVHTYK3",
+            "name": "Original",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0FJVHTYK3&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 7,
+            "asin": "B0DZRW6P11",
+            "name": "Peaches",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0DZRW6P11&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 8,
+            "asin": "B09YGL4BCM",
+            "name": "Sour Patch Kids Blue Raspberry",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B09YGL4BCM&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 9,
+            "asin": "B08MWBFMX5",
+            "name": "Sour Patch Kids Redberry",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B08MWBFMX5&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 10,
+            "asin": "B0CG1CV9T6",
+            "name": "Sour Pink Lemonade",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0CG1CV9T6&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 11,
+            "asin": "B0FPPLS4PX",
+            "name": "Sour Strips Rainbow",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0FPPLS4PX&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 12,
+            "asin": "B0DWV3SZWG",
+            "name": "Strawbango",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0DWV3SZWG&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 13,
+            "asin": "B09YG6LN3W",
+            "name": "Swedish Fish",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B09YG6LN3W&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 14,
+            "asin": "B08MWBTC42",
+            "name": "Tropical Mango",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B08MWBTC42&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 15,
+            "asin": "B0BHKR7Z4L",
+            "name": "Warheads Sour Green Apple",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0BHKR7Z4L&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 16,
+            "asin": "B08MW9LXK7",
+            "name": "Warheads Sour Watermelon",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B08MW9LXK7&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 17,
+            "asin": "B0GFBTJ1ZN",
+            "name": "Welch's Grape-Cran",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0GFBTJ1ZN&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 18,
+            "asin": "B0GFC458B3",
+            "name": "Blue Raspberry",
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0GFC458B3&device=desktop&engine=amazon_product"
+          },
+          {
+            "position": 19,
+            "asin": "B0DQ6ZFD98",
+            "name": "Electric Limeade",
+            "selected": true,
+            "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0DQ6ZFD98&device=desktop&engine=amazon_product"
+          }
+        ]
+      }
+    ],
+    "brand": "Visit the GHOST Store",
+    "link": "https://www.amazon.com/ap/signin?openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fgp%2Faw%2Fd%2FB0DQ6ZFD98&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=usflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&",
+    "link_clean": "https://www.amazon.com/ap/signin?openid.return_to=https%3A%2F%2Fwww.amazon.com%2Fgp%2Faw%2Fd%2FB0DQ6ZFD98/",
+    "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0DQ6ZFD98&device=desktop&engine=amazon_product",
+    "thumbnail": "https://m.media-amazon.com/images/I/51IPqYKWxXL._SX38_SY50_CR,0,0,38,50_.jpg",
+    "thumbnails": [
+      "https://m.media-amazon.com/images/I/81ctO8ae8jL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/71FILyjqRQL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81ON7uo0K1L._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81o6R+ZLiUL._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/81rpAqjUV9L._SL1500_.jpg",
+      "https://m.media-amazon.com/images/I/91su7-YG9fL._SL1500_.jpg"
+    ],
+    "rating": 4.5,
+    "reviews": 11697,
+    "prime": true,
+    "stock": "Currently unavailable."
+  },
+  "item_ingredients": [
+    "Includes 200mg Natural Caffeine, 1000mg Carnipure®️ L-Carnitine, 150mg Alpha-GPC, 100mg NeuroFactor™️, 25mg AstraGin®️. See nutrition facts for full ingredient list."
+  ],
+  "item_specifications": {
+    "brand": "GHOST",
+    "item_form": "Liquid",
+    "flavor": "Electric Limeade",
+    "number_of_items": "12",
+    "package_information": "Can"
+  },
+  "about_item": [
+    "Feel Good Energy: GHOST Energy is the fully transparent, fully loaded energy drink we’ve all been waiting for. Authentic Flavors. Zero Sugars.* No BS. Electric Limeade flavor. 12-pack case contains 16oz cans. Only intended for persons 18 years or older. *GHOST Energy is low in calories.",
+    "Legendary Energy: This drink contains 200mg of Natural Caffeine from coffee beans, which has been found anecdotally to deliver a smooth, feel-good energy with less jitters and no crash when compared to other forms of caffeine.*",
+    "Epic Focus*: GHOST Energy combines the nootropics of Carnipure L-Carnitine, Alpha-GPC, NeuroFactor, and AstraGin to support brain and cognitive function, and supports nutrient apsorption.*",
+    "Total Transparency: All GHOST products feature a transparent label that fully discloses the dose of each active ingredient. Zero proprietary blends means you know what you’re getting in each and every sip. GHOST Energy is vegan friendly, gluten free, and contains zero sugars.* *GHOST Energy is low in calories.",
+    "Energy and Focus Combo: GHOST Energy is a full disclosure energy drink that delivers on efficacy and the info to ensure you know exactly what you're getting in every can. Combining 200mg of natural caffeine with nootropics to deliver a legendary combo of energy and focus.*"
+  ],
+  "related_products": [
+    {
+      "position": 1,
+      "asin": "B0B994RPC6",
+      "title": "RYSE Fuel Energy Drink - Variety Pack - Sugar Free, Gluten Free & Vegan - 200mg Natural Caffeine, Taurine & Choline for Focus",
+      "link": "https://www.amazon.com/RYSE-Energy-Calories-Caffeine-Variety/dp/B0B994RPC6/ref=sims_dp_d_dex_ai_rank_model_1_d_v1_d_sccl_1_1/136-9914253-4207811?pd_rd_w=Q8fl3&content-id=amzn1.sym.bb4a0aac-c2b4-4b4b-a0c8-9aa89b28dce3&pf_rd_p=bb4a0aac-c2b4-4b4b-a0c8-9aa89b28dce3&pf_rd_r=F43W26WWWBV10MEJ9D82&pd_rd_wg=ArJpn&pd_rd_r=94fd79b2-3768-4c2a-82f9-edc1bdc8c0ad&pd_rd_i=B0B994RPC6&psc=1",
+      "link_clean": "https://www.amazon.com/RYSE-Energy-Calories-Caffeine-Variety/dp/B0B994RPC6/",
+      "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0B994RPC6&device=desktop&engine=amazon_product",
+      "thumbnail": "https://images-na.ssl-images-amazon.com/images/I/71djIpSHe6L._AC_UL165_SR165,165_.jpg",
+      "rating": 4.4,
+      "reviews": 2599,
+      "price": "$29.99",
+      "extracted_price": 29.99,
+      "price_unit": "$0.16/fluid ounce",
+      "extracted_price_unit": 0.16,
+      "delivery": [
+        "Get it as soon as Monday, Feb 2"
+      ]
+    },
+    {
+      "position": 2,
+      "asin": "B0FV12SH7Y",
+      "title": "RYSE Fuel Energy Drink - Frosted Lemonade - Sugar Free - 200mg Natural Caffeine, New Formula to Supports Cognitive Health & I",
+      "link": "https://www.amazon.com/RYSE-Fuel-Energy-Drink-Artificial/dp/B0FV12SH7Y/ref=sims_dp_d_dex_ai_rank_model_1_d_v1_d_sccl_1_2/136-9914253-4207811?pd_rd_w=Q8fl3&content-id=amzn1.sym.bb4a0aac-c2b4-4b4b-a0c8-9aa89b28dce3&pf_rd_p=bb4a0aac-c2b4-4b4b-a0c8-9aa89b28dce3&pf_rd_r=F43W26WWWBV10MEJ9D82&pd_rd_wg=ArJpn&pd_rd_r=94fd79b2-3768-4c2a-82f9-edc1bdc8c0ad&pd_rd_i=B0FV12SH7Y&psc=1",
+      "link_clean": "https://www.amazon.com/RYSE-Fuel-Energy-Drink-Artificial/dp/B0FV12SH7Y/",
+      "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0FV12SH7Y&device=desktop&engine=amazon_product",
+      "thumbnail": "https://images-na.ssl-images-amazon.com/images/I/71pyeuYWm2L._AC_UL165_SR165,165_.jpg",
+      "rating": 4.4,
+      "reviews": 2599,
+      "price": "$29.99",
+      "extracted_price": 29.99,
+      "price_unit": "$0.16/fluid ounce",
+      "extracted_price_unit": 0.16,
+      "delivery": [
+        "Get it as soon as Tuesday, Feb 3"
+      ]
+    },
+    {
+      "position": 3,
+      "asin": "B0DSY1TC2F",
+      "title": "Cellucor C4 Energy Carbonated Zero Sugar Energy Drink, Pre Workout Drink + Beta Alanine, Sour Gummy Splash, 16 Fl Oz (Pack of",
+      "link": "https://www.amazon.com/Cellucor-Energy-Carbonated-Workout-Alanine/dp/B0DSY1TC2F/ref=sims_dp_d_dex_ai_rank_model_1_d_v1_d_sccl_1_3/136-9914253-4207811?pd_rd_w=Q8fl3&content-id=amzn1.sym.bb4a0aac-c2b4-4b4b-a0c8-9aa89b28dce3&pf_rd_p=bb4a0aac-c2b4-4b4b-a0c8-9aa89b28dce3&pf_rd_r=F43W26WWWBV10MEJ9D82&pd_rd_wg=ArJpn&pd_rd_r=94fd79b2-3768-4c2a-82f9-edc1bdc8c0ad&pd_rd_i=B0DSY1TC2F&psc=1",
+      "link_clean": "https://www.amazon.com/Cellucor-Energy-Carbonated-Workout-Alanine/dp/B0DSY1TC2F/",
+      "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0DSY1TC2F&device=desktop&engine=amazon_product",
+      "thumbnail": "https://images-na.ssl-images-amazon.com/images/I/81cdeRFYO4L._AC_UL165_SR165,165_.jpg",
+      "rating": 4.6,
+      "reviews": 28527,
+      "price": "$27.99",
+      "extracted_price": 27.99,
+      "price_unit": "$0.15/fluid ounce",
+      "extracted_price_unit": 0.15,
+      "delivery": [
+        "Get it as soon as Monday, Feb 2"
+      ]
+    },
+    {
+      "position": 4,
+      "asin": "B0CGMF4B74",
+      "title": "Monster Energy Ultra Variety Pack, PKZSD, Sugar Free Energy Drink, 16 Ounce | Pack of 15",
+      "badges": [
+        "Amazon's Choice"
+      ],
+      "link": "https://www.amazon.com/Monster-Energy-Variety-Peachy-Strawberry/dp/B0CGMF4B74/ref=sims_dp_d_dex_ai_rank_model_1_d_v1_d_sccl_1_4/136-9914253-4207811?pd_rd_w=Q8fl3&content-id=amzn1.sym.bb4a0aac-c2b4-4b4b-a0c8-9aa89b28dce3&pf_rd_p=bb4a0aac-c2b4-4b4b-a0c8-9aa89b28dce3&pf_rd_r=F43W26WWWBV10MEJ9D82&pd_rd_wg=ArJpn&pd_rd_r=94fd79b2-3768-4c2a-82f9-edc1bdc8c0ad&pd_rd_i=B0CGMF4B74&psc=1",
+      "link_clean": "https://www.amazon.com/Monster-Energy-Variety-Peachy-Strawberry/dp/B0CGMF4B74/",
+      "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0CGMF4B74&device=desktop&engine=amazon_product",
+      "thumbnail": "https://images-na.ssl-images-amazon.com/images/I/71wR7H5mXFL._AC_UL165_SR165,165_.jpg",
+      "rating": 4.7,
+      "reviews": 82619,
+      "price": "$27.49",
+      "extracted_price": 27.49,
+      "price_unit": "$0.11/fluid ounce",
+      "extracted_price_unit": 0.11,
+      "delivery": [
+        "Get it as soon as Monday, Feb 2"
+      ]
+    },
+    {
+      "position": 5,
+      "asin": "B09RGKQW2L",
+      "title": "Cellucor C4 Performance Energy Drink | Cosmic Rainbow | Zero Sugar Carbonated Preworkout Energy | 200mg Caffeine with Beta Al",
+      "link": "https://www.amazon.com/Cellucor-Skittles-Carbonated-Performance-Artificial/dp/B09RGKQW2L/ref=sims_dp_d_dex_ai_rank_model_1_d_v1_d_sccl_1_5/136-9914253-4207811?pd_rd_w=Q8fl3&content-id=amzn1.sym.bb4a0aac-c2b4-4b4b-a0c8-9aa89b28dce3&pf_rd_p=bb4a0aac-c2b4-4b4b-a0c8-9aa89b28dce3&pf_rd_r=F43W26WWWBV10MEJ9D82&pd_rd_wg=ArJpn&pd_rd_r=94fd79b2-3768-4c2a-82f9-edc1bdc8c0ad&pd_rd_i=B09RGKQW2L&psc=1",
+      "link_clean": "https://www.amazon.com/Cellucor-Skittles-Carbonated-Performance-Artificial/dp/B09RGKQW2L/",
+      "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B09RGKQW2L&device=desktop&engine=amazon_product",
+      "thumbnail": "https://images-na.ssl-images-amazon.com/images/I/81SDGtdn6DL._AC_UL165_SR165,165_.jpg",
+      "rating": 4.6,
+      "reviews": 28527,
+      "price": "$23.49",
+      "extracted_price": 23.49,
+      "price_unit": "$0.12/fluid ounce",
+      "extracted_price_unit": 0.12,
+      "delivery": [
+        "Get it as soon as Monday, Feb 2"
+      ]
+    },
+    {
+      "position": 6,
+      "asin": "B0F2GK9ZGZ",
+      "title": "RYSE Fuel Energy Drink - Arctic Berry - Sugar Free, Gluten Free & Vegan - 200mg Natural Caffeine, Taurine & Choline for Focus",
+      "link": "https://www.amazon.com/RYSE-Fuel-Energy-Drink-Artificial/dp/B0F2GK9ZGZ/ref=sims_dp_d_dex_ai_rank_model_1_d_v1_d_sccl_1_6/136-9914253-4207811?pd_rd_w=Q8fl3&content-id=amzn1.sym.bb4a0aac-c2b4-4b4b-a0c8-9aa89b28dce3&pf_rd_p=bb4a0aac-c2b4-4b4b-a0c8-9aa89b28dce3&pf_rd_r=F43W26WWWBV10MEJ9D82&pd_rd_wg=ArJpn&pd_rd_r=94fd79b2-3768-4c2a-82f9-edc1bdc8c0ad&pd_rd_i=B0F2GK9ZGZ&psc=1",
+      "link_clean": "https://www.amazon.com/RYSE-Fuel-Energy-Drink-Artificial/dp/B0F2GK9ZGZ/",
+      "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0F2GK9ZGZ&device=desktop&engine=amazon_product",
+      "thumbnail": "https://images-na.ssl-images-amazon.com/images/I/71PD9s6eb7L._AC_UL165_SR165,165_.jpg",
+      "rating": 4.4,
+      "reviews": 2599,
+      "price": "$29.99",
+      "extracted_price": 29.99,
+      "price_unit": "$2.50/fluid ounce",
+      "extracted_price_unit": 2.5,
+      "delivery": [
+        "Get it as soon as Monday, Feb 2"
+      ]
+    }
+  ],
+  "videos": [
+    {
+      "position": 1,
+      "title": "HONEST Review of GHOST Sour Patch Kids Blue Raspberry Drink",
+      "link": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/4258c3d4-6580-4aa7-9f22-ed3506f05d0e/default.jobtemplate.hls.m3u8",
+      "thumbnail": "https://m.media-amazon.com/images/I/71MmNbc6LzL.png",
+      "duration": "1:40",
+      "vendor": "Steph Wilkinson",
+      "vendor_thumbnail": "https://m.media-amazon.com/images/I/A1Ff67T1P8L._CR0,0,2316,2316_._FMjpg_._SL34_.jpg",
+      "date": "Jun 9, 2023"
+    },
+    {
+      "position": 2,
+      "title": "am i drinking candy",
+      "link": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/acd1f796-8fc0-4590-9c82-f64d34366307/default.vertical.jobtemplate.hls.m3u8",
+      "thumbnail": "https://m.media-amazon.com/images/I/71VMRkYgrdL.jpg",
+      "duration": "0:53",
+      "vendor": "Reginald Sharma",
+      "vendor_thumbnail": "https://images-na.ssl-images-amazon.com/images/S/influencer-profile-image-prod/reginaldsharma_f0bf9b39-daed-4826-a5ba-3ce5ee9498a3._SL34_.jpeg",
+      "date": "Nov 13, 2023"
+    },
+    {
+      "position": 3,
+      "title": "My Genuine Review Of The Ghost Ice Tea Lemonade Energy Drink",
+      "link": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/d2d5e175-1f72-46bc-8603-3ef1f5b2f3e5/default.vertical.jobtemplate.hls.m3u8",
+      "thumbnail": "https://m.media-amazon.com/images/I/81bj1bSabwL.jpg",
+      "duration": "0:56",
+      "vendor": "Kevin Vazquez",
+      "vendor_thumbnail": "https://m.media-amazon.com/images/I/71axphTvdoL._CR0,0,906,906_._FMjpg_._SL34_.jpg",
+      "date": "Jun 18, 2025"
+    },
+    {
+      "position": 4,
+      "title": "This is why I drink Ghost!",
+      "link": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/fff1fdb2-969d-4a65-851d-e05ff0b3b959/default.jobtemplate.hls.m3u8",
+      "thumbnail": "https://m.media-amazon.com/images/I/A15L-Rf3a6L.png",
+      "duration": "0:42",
+      "vendor": "✅ Cole Schwartz",
+      "vendor_thumbnail": "https://m.media-amazon.com/images/I/81LA+pOVL8L._CR0,0,1412,1412_._FMjpg_._SL34_.jpg",
+      "date": "Nov 7, 2023"
+    },
+    {
+      "position": 5,
+      "title": "Taste Test | Ghost Energy Tropical Mango",
+      "link": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/cd63f107-429a-4144-a921-b30dcd088d34/default.vertical.jobtemplate.hls.m3u8",
+      "thumbnail": "https://m.media-amazon.com/images/I/71MPLqglL4L.jpg",
+      "duration": "0:41",
+      "vendor": "Spencer Does Reviews",
+      "vendor_thumbnail": "https://images-na.ssl-images-amazon.com/images/S/influencer-profile-image-prod/logo/spencerbroom_1677279322431_original._FMjpg_._SL34_.jpeg",
+      "date": "Jan 26, 2023"
+    },
+    {
+      "position": 6,
+      "title": "Watch Before You Buy Ghost Energy Drink!",
+      "link": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/180759fd-85a5-4656-bccc-8027d750ed65/default.jobtemplate.hls.m3u8",
+      "thumbnail": "https://m.media-amazon.com/images/I/B1r+ciHU7jL.jpg",
+      "duration": "0:30",
+      "vendor": "✅Beauty Brushes",
+      "vendor_thumbnail": "https://m.media-amazon.com/images/I/91quBHMsTfL._CR0,0,1875,1875_._FMjpg_._SL34_.jpg",
+      "date": "Jul 19, 2024"
+    },
+    {
+      "position": 7,
+      "title": "Great tasting caffeine drink without the sugar",
+      "link": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/db240a13-3c5c-4cb9-94aa-d144813f837a/default.vertical.jobtemplate.hls.m3u8",
+      "thumbnail": "https://m.media-amazon.com/images/I/A1R2O84cv+L.jpg",
+      "duration": "2:14",
+      "vendor": "Bang",
+      "vendor_thumbnail": "https://m.media-amazon.com/images/I/C1UTl3flnoL._CR0,1008,3024,3024_._FMjpg_._SL34_.jpg",
+      "date": "Jul 13, 2023"
+    },
+    {
+      "position": 8,
+      "title": "Honest Review: Ghost Energy Drink",
+      "link": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/b00ebd1f-cf1e-4c60-b2a0-86f52cfab3f0/default.jobtemplate.hls.m3u8",
+      "thumbnail": "https://m.media-amazon.com/images/I/A1HTyy26eRL.jpg",
+      "duration": "0:58",
+      "vendor": "Kyle",
+      "vendor_thumbnail": "https://m.media-amazon.com/images/I/91V7sevIYVL._CR0,0,2048,2048_._FMjpg_._SL34_.jpg",
+      "date": "Jan 3, 2024"
+    },
+    {
+      "position": 9,
+      "title": "Ghost Energy Green Apple Review",
+      "link": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/95fd0c4d-b2c4-4db2-b4f8-1ac7aef08d92/default.vertical.jobtemplate.hls.m3u8",
+      "thumbnail": "https://m.media-amazon.com/images/I/61UgC5o8A7L.jpg",
+      "duration": "1:32",
+      "vendor": "Aaron Anderson",
+      "vendor_thumbnail": "https://m.media-amazon.com/images/I/81YR3klH5jL._CR0,0,1187,1187_._FMjpg_._SL34_.jpg",
+      "date": "Sep 1, 2023"
+    },
+    {
+      "position": 10,
+      "title": "Ghost ENERGY Commercial",
+      "link": "https://m.media-amazon.com/images/S/vse-vms-transcoding-artifact-us-east-1-prod/87507713-c332-4a62-9340-9f871f456716/default.jobtemplate.hls.m3u8",
+      "thumbnail": "https://m.media-amazon.com/images/I/51+n0T87ZKL.jpg",
+      "duration": "0:15",
+      "vendor": "GHOST ENERGY",
+      "date": "Jul 31, 2025"
+    }
+  ],
+  "product_details": {
+    "product_dimensions": "3 x 3 x 6.5 inches; 1 Pounds",
+    "upc": "810128529921",
+    "manufacturer": "GHOST ENERGY",
+    "asin": "B0DQ6ZFD98",
+    "units": "192.0 Fluid Ounces",
+    "review": 11697
+  },
+  "sponsored_brands": [
+    {
+      "position": 1,
+      "asin": "B0DG6Z3FZ4",
+      "title": "Cellucor C4 Performance Energy Drink | JOLLY RANCHER Watermelon | Zero Sugar Carbonated Preworkout Energy | 200mg Caffeine with Beta Alanine | 16 Fl Oz (12 Pack)",
+      "link": "https://aax-us-east-retail-direct.amazon.com/x/c/JP7OLW-ufDKaXgBHaTfaA4YAAAGcAfHTkgEAAAH2AQBvbm9fdHhuX2JpZDcgICBvbm9fdHhuX2ltcDIgICAqsNZo/clv1_CEuOPUxokZA0iHrVAv00wB_KY38jXesupK4Z5xDUx9pRx39t2li_Vf018nHz9hvWjq0yzpNb3XTPsunPnGYceQ54az2bSJejNlkVa2hcR0OHTYFQvTAOLZEdHEepj4emXJOUI0W78tANGk5hgFv_ak5TLFFOGshzBElqUqEnHhGU36Ta0Ek8SAz5MJbld7QzBH9acdHMzpkFUDVhJ9oQXuEFlsWsnsI6KjDhFKorgxcWp4FvlLz2S1sKgEji6npOAE_zFP7W4zho-hUrANRvXRGwenKzslPpBOrh0InSFK4VEhmB8byFyCnOZALHHJaq9-sczsxsTvDakJr9CNzsBepWj8dKXh85j4Qd4-lXE5FxtDJyVnOj3BWR5rIBU0KHcCRtq0SmgkUgr2jTJJrQf2V2RbHEmcpDZfIZM3hCrgUANL9bkxVaLztUwaVWXQoMHaeUao3xp-WQHS8cbA2SvJ4uSG-io1a6UxNtQYpRv-6TMit65IyG_WTyaXgbMNKPkN1KwzpnRZYzlQejjWrEwB39Vx97L1QPOhLZeTnpNZfxcTGZFBFtzVQCCHHxR2bja946lPFlcQamt4tnmOUVDjaRLSpcrSZf0ecVkoWBjWQmko-GwodJQXvB_CHZSrGLDE0sbNAXMTxxzrF3CLEQiRo6_IPIPwpaa19dnsdYjrw6BxQFUwP6sEMS-hbycuZ97St58UpAxu4V1rYRaEHuIEc5pJHYD_rS9oTbF2YqCQv80UjIeItz8glE4fkrUtOzgIlnODLYpG710QfvAXznEhdAoCf7K2ldgv9_SKEOfRas5lkOPfFxuj9f9p6xSWaRccmgdyZnwDrlmdVjZZZSpqSmgUkasqy8FsWMlOuG0XKb_jv6w1Mu-VTwhn6RqzPbjao1nuEqjSvFMNsZd-EfA87_wsSFo0tuHQduLhaUug_ykzBFMld_UXtKAh_Wz2CumzO9RPDlu6uLrbvEzgnnfah9J8CDRaP70kSSZhAmLfQLRxB1SUxaeJH3kyjQEGM5Dxrc075phSsKXaYZ95X76DR_hj5tC-2jngpkwJcg7RBxdxybRty6ERn7aIlBfo11W1C9So7eLAE4MKOyWKe5lOniWRHi95RzSu5TCDg-IIezKSiGLLp1g3dcB62S4LLajOwFesfyvAI3H8VB-mAeam4LBPn7PFTRF7cSvaPar4Cw1xaA1HHpyLQslSZAXdgkOlemH2zG42itbSQwmQTZGtuj0c5bgbxB_z6r7aJTK03mAFc9WGeK3kaijyNwC7vzV545oo_vSHOda_pdfp8Im1c23b19ppmI-iitm2uOKN7Pdf1ZTJDR5dQ48QiH0Z8zTY0_dwCZx2LKkukKUmY60vnV0OwO2WVqeONLNeFWvIsXrWWbKVapttKoDlqWYbZdPjH3b1-OVhzAcDQsfaqhXqi3gSmVEWp55Y8D5v7XqUdESg5dwp4AJcIQMBDNHROqqxRbDB3DoojczCzOORbyQHDI6zq3GtcA_royyP5W8EgfjFHEH3qzFGpU3LAwxouwvl_sd3MYbs9HCIzQWo8DPgvcvfGfM0OlFXODJv8iofakz8mjuqCtUax-CPIAnaxLU9j-PSjOx5nNafbeEnkLVQIS7e_Wz4Uk_rfUw23hy-epVVzJNwy2niYKulNdWIa2dxbFEV7Zw7E5BmyBqiZV_qheRw3sbUwXDpRzhs84VMj3JeYfhqHXf0AO7_yUoM2FpNUkSpa4qjpYhjWWnrZIIzbMyypvmSa6raVnCjG17lOCucv_-u0mYZV31XD8Mc0ohaYD_lOS5Y17APdsfb8e4woGNvDI7XnqRNuMGDX4hK6mOLC83OUd7adQVs_z8tFBj18OaagbAqUgguPtP33YAoOo8LJpUNKTeulBYi9dhCw0lf3eb-rvj0snIo2Ez9o2zNH9fwBRm_CQ3RJwdSL1Ns7mxiBo7p9kijFTEudDLdbL0M2wyuQlxhndYPG0XJ_JagDHihU6bLm309jZDefFfQeF1IcQcCGLQeV4IwPNFvPmMiFrOdWqT4XSnwPytTM8G9M-WB9CWdJO4kh4ifSGqdO8ged2ZIb8C7saUatGUrwYhIUKCnM1WqoJ4lgtAo_Qw3waZlp4PfLEECe1DDzy6AYRyOqFq7DzKI5G5GI5GP6CK9YjBRv7XIAur79v-Gi0fSApmD0wPW44RQGOHA_u3T-2OLmQ_RgasmPzL6N5aJ8PObDgH-raEcJ0NlwVUAAmZMLAbMnj8x3G5neNeI-vxYUGQJ0t/https://www.amazon.com/dp/B0DG6Z3FZ4/?_encoding=UTF8&pd_rd_i=B0DG6Z3FZ4&pd_rd_i=B0DG6Z3FZ4&ref_=sbx_be_s_sparkle_ssd_cta&pd_rd_w=PRnea&content-id=amzn1.sym.ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_p=ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_r=F43W26WWWBV10MEJ9D82&pd_rd_wg=ArJpn&pd_rd_r=94fd79b2-3768-4c2a-82f9-edc1bdc8c0ad",
+      "link_clean": "https://www.amazon.com/dp/B0DG6Z3FZ4/",
+      "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0DG6Z3FZ4&device=desktop&engine=amazon_product",
+      "thumbnail": "https://m.media-amazon.com/images/I/51RqCEk2d1L._AC_SR100,100_QL65_.jpg",
+      "video": {
+        "link": "https://m.media-amazon.com/images/S/al-na-9d5791cf-3faf/bc382e86-02e9-4896-80d5-56b9eba7d8e3.mp4/productVideoOptimized.mp4",
+        "thumbnail": "https://m.media-amazon.com/images/S/al-na-9d5791cf-3faf/bc382e86-02e9-4896-80d5-56b9eba7d8e3.mp4/r/THUMBNAIL_360P_FRAME_3_CAPTURE_2.JPG"
+      },
+      "rating": 4.6,
+      "reviews": 28527,
+      "price": "$27.99",
+      "extracted_price": 27.99
+    },
+    {
+      "position": 2,
+      "asin": "B0DV19PJXS",
+      "title": "Red Bull Sea Blue Edition Sugar-Free Energy Drink, Juneberry, with 80mg Caffeine plus Taurine & B Vitamins, 8.4 Fl Oz, Pack of 24 Cans (6 packs of 4)",
+      "link": "https://aax-us-east-retail-direct.amazon.com/x/c/JP3eabkIuu70eIeTeoKz1O8AAAGcAfHTkwEAAAH2AQBvbm9fdHhuX2JpZDcgICBvbm9fdHhuX2ltcDIgICDpfJQf/clv1_CEuOPUxokZA0iHrVAv00wB_KY38jXesupK4Z5xDUx9pRx39t2li_Vf018nHz9hvWjq0yzpNb3XTPsunPkmYceQ5vajmML8utTF83OkEsbQWuBr5B4iAOLZEdHEepj4emXJOUI0W78tANGk5hgFv_ak5TLFFOGshzBElqUqEnHhGU36Ta0Ek8SAz5MJbld7QzBH9acdHMzpkFUDVhJ9oQXuEFlsWsnsI6KjDhFKorgxcWp4FvlLz2S1sKgEji6npOAE_zFP7W4zho-hUrANRvXRGwenKzslPpBOrh0InSFK4VEhmB8byFyCnOZALHHJaq9-sczsxsTvDakJr9C8DtAuVJ7-hKb2I-q49B0_hXN7xZ5H5FIHT_4hWR5rIBU0KHcCRtq0SmgkUgqyTSCp7XfVt2AbHUp8pDZfIZM3hCrgUANL9bkxVaLztUwaVWXQoMHaeUao3xp-WQHS8cbA2SvJ4uSG-io1a6UxNtQYpRv-6TMit65IyG_WTyaXgbMNKPkN1KwzpnRZYzlQejjWrEwB39Vx97L1QPOhLZeTnpNZfxcTGZFBFtzVQCCHHxR2bja946lPFlcQamt4tnmOUVDjaRLSpcrSZf0ecVkoWBjWQmko-GwodJQXvB_CHZSrGLDE0sbNAXMTxxzrF3CLEQiRo6_IPIPwpaa19dnsdYjrw6BxQFUwP6sEMS-hbycuZ97St58UpAxu4V1rYRaEHuIEc5pJHYD_rS9oTbF2YqCQv80UjIeItz8glE4fkrUtOzgI1nODLYpG710QfvAXznEhdAoCf7K2ldgv9_SKEOfRas5lkOPfFxuj9f9p6xSWaRccmgdyZnwDrlmdVjZZZSpqSmgUkasqy8FsWMlOuG0XKb_jv6w1Mu-VTwhn6RqzPbjao1nuEqjSvFMNsZd-EfA87_wsSFo0tuHQduLSyUuA_ykzBFMld_UXtKAh_Wz2CumzO9RPDlu6iLh7rE4A3gfIZPacCTWaP70kSSZhAmLfQLRxB1SUxaeJH3kyjQEGM5Dwra0L59zygaReUa55X76DR_hj5tC-2jngpkwJcg7RBxdxyYfNy4ERn7aIlBfo11W1C9So7eLAE4MKOyWKe5lOniWRHi95RzSu5TCDg-IIezKSiGLLp1g3dcB62S4LLajOwFesfyvAI3H8VB-mAeam4LBPn7PFTRF7cSvaPar4Cw1xaA1HHpyLQslSZAXdgkOlemH2zG42itbSQwmQTZGtuj0c5bgbxB_z6r7aJTK03mAFc9WGeK3kaijyNwC7vzV545oo_vSHOda_pdfp8Im1c23b19ppmI-iitm2uOKN7Pdf1ZTJDR5dQ48QiH0Z8zTY0_dwCZx2LKkukKUmY60vnV0OwO2WVqeONLNeFWvIsXrWWbKVapttKoDlqWYbZdPjH3b1-OVhzAcDQsfaqhXqi3gSmVEWp55Y8D5v7XqUdESg5dwp4AJcIQMBDNHROqqxRbDB3DoojczCzOORbyQHDI6zq3GtcA_royyP5W8EgfjFHEH3qzFGpU3LAwxouwvl_sd3MYbs9HCIzQWo8DPgvcvfGfM0OlFXODJv8iofakz8mjuqCtUax-CPIAnaxLU9j-PSjOx5nNafbeEnkLVQIS7e_Wz4Uk_rfUw23hy-epVVzJNwy2niYKulNdWIa2dxbFEV7Zw7E5BmyBqiZV_qheRw3sbUwXDpRzhs84VMj3JeYfhqHXf0AO7_yUoM2FpNUkSpa4qjpYhjWWnrZIIzbMyypvmSa6raVnCjG17lOCucv_-u0mYZV31XD8Mc0ohaYD_lOS5Y17APdsfb8e4woGNvDI7XnqRNuMGDX4hK6mOLC83OUd7adQVs_z8tFBj18OaagbAqUgguPtP33YAoOo8LJpUNKTeulBYi9dhCw0lf3eb-rvj0snIo2Ez9o2zNH9fwBRm_CQ3RJwdSL1Ns7mxiBo7qFk5xZIRx6sOOGkXG3odAp-qnwJke8N-4TyUbOuqsuhkx_fCfOBL9GeOgeG3YcadyLcG_puekPcELOmOiMFf8alVpqtzhT2v202B8p2SVdBW41RrF1miqCZ8dDji-IoZdjgTP8oZN4kFesvoK92IUAUbPdz_1wbItSqwlwPdEc7MMXkM2GJIQHCGC8SGIOqA7rj7c11uS8_GNazLfJcWTLwXKZk0rIAjmq6eRh13g0_Dm4udQ69PBv_yTmjKJ2n6SEMsmPzL6N5aJ8PBrPGIOn8EcJSNlwVUAAAsIalGorxYf-uw8F0k_psnXFOVaJOgz54PiMD/https://www.amazon.com/dp/B0DV19PJXS/?_encoding=UTF8&pd_rd_i=B0DV19PJXS&pd_rd_i=B0DV19PJXS&ref_=sbx_be_s_sparkle_ssd_cta&pd_rd_w=PRnea&content-id=amzn1.sym.ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_p=ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_r=F43W26WWWBV10MEJ9D82&pd_rd_wg=ArJpn&pd_rd_r=94fd79b2-3768-4c2a-82f9-edc1bdc8c0ad",
+      "link_clean": "https://www.amazon.com/dp/B0DV19PJXS/",
+      "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0DV19PJXS&device=desktop&engine=amazon_product",
+      "thumbnail": "https://m.media-amazon.com/images/I/51k+UvI0JlL._AC_SR100,100_QL65_.jpg",
+      "video": {
+        "link": "https://m.media-amazon.com/images/S/al-na-9d5791cf-3faf/23ee8e11-693b-40dc-970a-be181a8f77eb.mp4/productVideoOptimized.mp4",
+        "thumbnail": "https://m.media-amazon.com/images/S/al-na-9d5791cf-3faf/23ee8e11-693b-40dc-970a-be181a8f77eb.mp4/r/THUMBNAIL_360P_FRAME_3_CAPTURE_2.JPG"
+      },
+      "rating": 4.7,
+      "reviews": 2236,
+      "price": "$38.98",
+      "extracted_price": 38.98
+    },
+    {
+      "position": 3,
+      "asin": "B097S6QKKS",
+      "title": "Wake Up Water Energy Drink Mix, Sugar Free Clean Energy Powder with Electrolytes & B Vitamins, Natural Caffeine for Focus & Hydration (15 Pack) - Variety",
+      "link": "https://aax-us-east-retail-direct.amazon.com/x/c/JKAkKjtxtFWpBR7JsAMRMxgAAAGcAfHTlAEAAAH2AQBvbm9fdHhuX2JpZDcgICBvbm9fdHhuX2ltcDIgICCs1vzt/clv1_CEuOPUxokZA0iHrVAv00wB_KY38jXesupK4Z5xDUx9pRx39t2li_Vf018nHz9hvWjq0yzpNb3XTPsunPk2YceU9IDji2TeWrLUgOSGFqTkSIDKtukhYOLZEdHEepg4emXJOUI0W78tANGk5hgFv_ak5TLFFOGshzBElqUqEnHhGU36Ta0Ek8SAz5MJbld7QzBH9acdHMzpkFUDVhJ9oQXuEFlsWsnsI6KjDhFKorgxcWp4FvlLz2S1sKgEji6npOAE_zFP7W4zho-hUrANRvXRGwenKzslPpBOrh0InSFK4VEhmB8byFyCnOZALHHJaq9-sczsxsTvDakJrTVt-OAvgnx9tkdAYDkLI24fRPDJYExjNCPlGE1z-R5rIBU0KHcCRtq0SmgkUgmSTRNJqVf2VyArHEmcpDZfIZM3hCrgUANL9bkxVaLztUwaVWXQoMHaeUao3xp-WQHS8cbA2SvJ4uSG-io1a6UxNtQYpRv-6TMit65IyG_WTyaXgbMNKPkN1KwzpnRZYzlQejjWrEwB39Vx97L1QPOhLZeTnpNZfxcTGZFBFtzVQCCHHxR2bja946lPFlcQamt4tnmOUVDjaRLSpcrSZf0ecVkoWBjWQmko-GwodJQXvB_CHZSrGLDE0sbNAXMTxxzrF3CLEQiRo6_IPIPwpaa19dnsdYjrw6BxQFUwP6sEMS-hbycuZ97St58UpAxu4V1rYRaEHuIEc5pJHYD_rS9oTbF2YqCQv80UjIeItz8glE4fkrUtOzgIFnODLYpG710QfvAXznEhdAoCf7K2ldgv9_SKEOfRas5lkOPfFxuj9f9p6xSWaRccmgdyZnwDrlmdVjZZZSpqSmgUkasqy8FsWMlOuG0XKb_jv6w1Mu-VTwhn6RqzPbjao1nuEqjSvFMNsZd-EfA87_wsSFo0tuHQduLiyU8gznnDpVCEMmb05WSxrJ7XaXqBWcRvXb5Km1i_jEzhWqfIZtbMODe6fu-HabdipZMs8EaRZ2dUREc4XsxizAPm45Dw6Y0JBbgykaUaka97_66TZRnD9DLe-TnmlQxpcs7CpcbEmfVYe3ETXVNKRQPNROVC_4SYHsDQI4BoGKYruelencYijawYdwSPoaMDhJZb6nWWuTLMc0gnIfGYCDouvhg5NAecjAhwI4D817kVooawofRMH7KCLvLbMhvYjGsoCxyx2t-Uj9zbQCkTJpVtEdPlulJHzSy1C9eR8IiXPfIuLA7chYhZVG_wS51JlIKVjdLVYQfXOO8EibijYEOqbJIp49m_qcfEucEI5pBb1Pl0ktw6hBkIOf0yOypmCWPeLSS_FadMXH9tNxpRmu69sJPIkkd3WBzEnntOkKVUAsw6XV8ex8xkJqeOBODs9wpooUk2GdAGi3sPmzEXeWYbZGFwDRaVyGXR_QfDYlaKGUXqi0nyiBFWtE-o8My9zpqUdAdARY9IoZM90cNgbSCRyEwQQTNxzA54jdpCv1THnrRnDy9zyZR8o4z8Ur9uEh9WAP-07rJWahO19Ezp0_sdOLsSOodBlob_IyZ4zQW-AhCRi3rPb7Fmy9YnODCYoHsczPz9yg0Z6LUdllK-csr_RIf-qmE1zzw5-nbfHjEmUNVh9x6db-ioEj24HL_nLt1O2pSVPTCjGisRRVpFNWH4azSTfCFmT3xbEpR32AuHNZwZAKWxjvJkwBOLFwlv0BV9CvLt0d4YPWfUAG-v6FhtGHi_hHS6604CNmmXK7sKlKIgzPlStOkieRnK5LFDO572GspcXQ69MuS6pZ73XPPc0ohaYDxzuSsIYnALZZfa9G0VYWQPet7XnqRNuMGDX4hK6mOLC80ZYc5sxQVs_z8tFK5F8OYsMbAqVq_tP-K1jfKbaStIlmTJGQe-FLWSFFlRRfo9HlbrObtyF6Ip62yIMulNrSS3dRn8eC3SRxdwDtLPWRkw9XpboKbq-50AWgepBZTffAQgAsmItVI_A6qoqwjtcQqKL5k6p0pZz6JqOHZxuHwJgfbT3XD-9mZAjaQa_hPTkUaNqqW-yUjBTvtHshA9lhFhVAWs8fqlRm1qKGrNL-gKtwY4aoSO0vPcI3Eo8vuaRANkQHe6oS8EofXq6s1HgdcxxGB9TxO2S6LAfUdVAwBYh8t-8SSYAkr2AbOuuMK_Z-Uxb4ePllrbQDjFmMdnxvqDIDPW4udQ69PA3Z9gWwHI6ExA4asmPzL6N5aJ8PBrPGIOnDLedLCnkMbAM_jKO8Jq88zfukygWnSiQdRdZqrZPcxFSiX3c/https://www.amazon.com/dp/B097S6QKKS/?_encoding=UTF8&pd_rd_i=B097S6QKKS&pd_rd_i=B097S6QKKS&ref_=sbx_be_s_sparkle_ssd_cta&pd_rd_w=PRnea&content-id=amzn1.sym.ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_p=ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_r=F43W26WWWBV10MEJ9D82&pd_rd_wg=ArJpn&pd_rd_r=94fd79b2-3768-4c2a-82f9-edc1bdc8c0ad",
+      "link_clean": "https://www.amazon.com/dp/B097S6QKKS/",
+      "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B097S6QKKS&device=desktop&engine=amazon_product",
+      "thumbnail": "https://m.media-amazon.com/images/I/51p0mx7wqtL._AC_SR100,100_QL65_.jpg",
+      "video": {
+        "link": "https://m.media-amazon.com/images/S/al-na-9d5791cf-3faf/45d53ffd-e31c-4d1c-b42f-dc3484911fe7.mp4/productVideoOptimized.mp4",
+        "thumbnail": "https://m.media-amazon.com/images/S/al-na-9d5791cf-3faf/45d53ffd-e31c-4d1c-b42f-dc3484911fe7.mp4/r/THUMBNAIL_360P_FRAME_3_CAPTURE_2.JPG"
+      },
+      "rating": 4.0,
+      "reviews": 1543,
+      "price": "$23.99",
+      "extracted_price": 23.99
+    },
+    {
+      "position": 4,
+      "asin": "B0F6FMBFMR",
+      "title": "JUNO ENERGY Organic Cherry Sparkling Drink - Sugar Free Electrolytes, Energizing and Hydrating with 125mg Organic Caffeine from Green Coffee Beans, Organic Monk Fruit, Organic Sour and Black Cherry Juice & Electrolytes - Vegan, Gluten Free, 12 Pack",
+      "link": "https://aax-us-east-retail-direct.amazon.com/x/c/JMHYJa9fUhFEaA5WX3_K39sAAAGcAfHTlQEAAAH2AQBvbm9fdHhuX2JpZDcgICBvbm9fdHhuX2ltcDIgICCtiLy1/clv1_CEuOPUxokZA0iHrVAv00wB_KY38jXesupK4Z5xDUx9pRx39t2li_Vf018nHz9hvWjq0yzpNb3XTPsunPk2YceVdvOCWLT5vIPnw3YW11eVWvTJxy5yAOLZEdHEepg4emXJOUI0W78tANGk5hgFv_ak5TLFFOGshzBElqUqEnHhGU36Ta0Ek8SAz5MJbld7QzBH9acdHMzpkFUDVhJ9oQXuEFlsWsnsI6KjDhFKorgxcWp4FvlLz2S1sKgEji6npOAE_zFP7W4zho-hUrANRvXRGwenKzslPpBOrh0InSFK4VEhmB8byFyCnOZALHHJaq9-sczsxsTvDakJrVVMOyA-VWxcZIeBcMkYwH4Pt5GahZ2TNzC3i14hWR5rIBU0KHcCRtq0SmgkUgp2zTNLCVfUtyAbDElcpDZfIZM3hCrgUANL9bkxVaLztUwaVWXQoMHaeUao3xp-WQHS8cbA2SvJ4uSG-io1a6UxNtQYpRv-6TMit65IyG_WTyaXgbMNKPkN1KwzpnRZYzlQejjWrEwB39Vx97L1QPOhLZeTnpNZfxcTGZFBFtzVQCCHHxR2bja946lPFlcQamt4tnmOUVDjaRLSpcrSZf0ecVkoWBjWQmko-GwodJQXvB_CHZSrGLDE0sbNAXMTxxzrF3CLEQiRo6_IPIPwpaa19dnsdYjrw6BxQFUwP6sEMS-hbycuZ97St58UpAxu4V1rYRaEHuIEc5pJHYD_rS9oTbF2YqCQv80UjIeItz8glE4fkrUtOzgIVnODLYpG710QfvAXznEhdAoCf7K2ldgv9_SKEOfRas5lkOPfFxuj9f9p6xSWaRccmgdyZnwDrlmdVjZZZSpqSmgUkasqy8FsWMlOuG0XKb_jv6w1Mu-VTwhn6RqzPbjao1nuEqjSvFMNsZd-EfA87_wsSFo0tuHQduLhaU8w3nnDpVCEMmb05WSxrJ7XaXqBWcRvXb5Km1pbzH4A2pfbhHb8CTQafu-HabdipZMs8EaRZ2dUREc4XsxizAPm45Dw6Y04BfwCgKUaYa542z6TZRnD9DLe-TnmlQxpcs7CpcbEmfVYe6ETXvMKRQPNROVC_4SYHsDQI4BoGKYruelencYijawYdwSPoaMDhJZb6nWWuTLMc0gnIfGYCDouvhg5NAecjAhwI4D817kVooawofRMH7KCLvLbMhvYjGsoCxyx2t-Uj9zbQCkTJpVtEdPlulJHzSy1C9eR8IiXPfIuLA7chYhZVG_wS51JlIKVjdLVYQfXOO8EibijYEOqbJIp49m_qcfEucEI5pBb1Pl0ktw6hBkIOf0yOypmCWPeLSS_FadMXH9tNxpRmu69sJPIkkd3WBzEnntOkKVUAsw6XV8ex8xkJqeOBODs9wpooUk2GdAGi3sPmzEXeWYbZGFwDRaVyGXR_QfDYlaKGUXqi0nyiBFWtE-o8My9zpqUdAdARY9IoZM90cNgbSCRyEwQQTNxzA54jdpCv1THnrRnDy9zyZR8o4z8Ur9uEh9WAP-07rJWahO19Ezp0_sdOLsSOodBlob_IyZ4zQW-AhCRi3rPb7Fmy9YnODCYoHsczPz9yg0Z6LUdllK-csr_RIf-qmE1zzw5-nbfHjEmUNVh9x6db-ioEj24HL_nLt1O2pSVPTCjGisRRVpFNWH4azSTfCFmT3xbEpR32AuHNZwZAKWxjvJkwBOLFwlv0BV9CvLt0d4YPWfUAG-v6FhtGHi_hHS6604CNmmXK7sKlKIgzPlStOkieRnK5LFDO572GspcXQ69MuS6pZ73XPPc0ohaYDxzuSsIYnALZZfa9G0VYWQPet7XnqRNuMGDX4hK6mOLC80ZYc5sxQVs_z8tFK5F8OYsMbAqVq_tP-K1jfKbaStIlmTJGQe-FLWSFFlRRfo9HlbrObtyF6Ip62yIMulNrSS3dRn8eC3SRxdwDtLPWRkw9XpboKbq-50ASnD7hZTYOwKH8AhYtVW-0U88a2jtccnO6Uw7R0pZz6JqOHZxuHwJgfbT3XD-9mZAjaQa_hPTkUaNqqW-yUjBTvtHshA9lhFhVAWs8fqlRm1qKGrNL-gKtwY4aoSO0vPcI3Eo8vuaRANkQHe6oS8EofXq6s1HgdcxxGB9TxO2S6LAfUdVAwBYh8t-8SSYAkr2AbOuuMK_Z-Uxb4ePllrbQDjFmMdnxvqDIDPW4udQ69PA3Z9gWwHI6ExA4asmPzL6N5aJ8PBrPGIOnDLedLCnkMbAM_jKO8Jq88zfukypVz9y6CE5um1w4JSg1N3kY/https://www.amazon.com/dp/B0F6FMBFMR/?_encoding=UTF8&pd_rd_i=B0F6FMBFMR&pd_rd_i=B0F6FMBFMR&ref_=sbx_be_s_sparkle_ssd_cta&pd_rd_w=PRnea&content-id=amzn1.sym.ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_p=ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_r=F43W26WWWBV10MEJ9D82&pd_rd_wg=ArJpn&pd_rd_r=94fd79b2-3768-4c2a-82f9-edc1bdc8c0ad",
+      "link_clean": "https://www.amazon.com/dp/B0F6FMBFMR/",
+      "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B0F6FMBFMR&device=desktop&engine=amazon_product",
+      "thumbnail": "https://m.media-amazon.com/images/I/51SZd+IMeHL._AC_SR100,100_QL65_.jpg",
+      "video": {
+        "link": "https://m.media-amazon.com/images/S/al-na-9d5791cf-3faf/2c91d837-e360-4a76-8e90-409c8def5f05.mp4/productVideoOptimized.mp4",
+        "thumbnail": "https://m.media-amazon.com/images/S/al-na-9d5791cf-3faf/2c91d837-e360-4a76-8e90-409c8def5f05.mp4/r/THUMBNAIL_360P_FRAME_3_CAPTURE_2.JPG"
+      },
+      "rating": 4.1,
+      "reviews": 258,
+      "price": "$27.99",
+      "extracted_price": 27.99
+    },
+    {
+      "position": 5,
+      "asin": "B07BHKNF78",
+      "title": "MTN OPS Ignite Energy Drink Powder, Gluten Free Nootropic Supplement Drink Mix, L Arginine, L Citrulline, Caffeine & Nootropic Sugar Free Drink Mix, 45 Servings, Tiger's Blood",
+      "link": "https://aax-us-east-retail-direct.amazon.com/x/c/JBInSiZbqaxp43PlJs3YqpcAAAGcAfHTlgEAAAH2AQBvbm9fdHhuX2JpZDcgICBvbm9fdHhuX2ltcDIgICDbRFNL/clv1_CEuOPUxokZA0iHrVAv00wB_KY38jXesupK4Z5xDUx9pRx39t2li_Vf018nHz9hvWjq0yzpNb3XTPsunPlWYceWViOwKzEtfrCW4LZEo0dl6zEIdluSAOLZEdHEepgYemXJOUI0W78tANGk5hgFv_ak5TLFFOGshzBElqUqEnHhGU36Ta0Ek8SAz5MJbld7QzBH9acdHMzpkFUDVhJ9oQXuEFlsWsnsI6KjDhFKorgxcWp4FvlLz2S1sKgEji6npOAE_zFP7W4zho-hUrANRvXRGwenKzslPpBOrh0InSFK4VEhmB8byFyCnOZALHHJaq9-sczsxsTvDakJrjMf23Mp1vzu1GdCgI9fMA68UwLpBs8GxxPme_4hWR5rIBU0KHcCRtq0SmgkUghSXRGpbTfFtiAbPqlcpDZfIZM3hCrgUANL9bkxVaLztUwaVWXQoMHaeUao3xp-WQHS8cbA2SvJ4uSG-io1a6UxNtQYpRv-6TMit65IyG_WTyaXgbMNKPkN1KwzpnRZYzlQejjWrEwB39Vx97L1QPOhLZeTnpNZfxcTGZFBFtzVQCCHHxR2bja946lPFlcQamt4tnmOUVDjaRLSpcrSZf0ecVkoWBjWQmko-GwodJQXvB_CHZSrGLDE0sbNAXMTxxzrF3CLEQiRo6_IPIPwpaa19dnsdYjrw6BxQFUwP6sEMS-hbycuZ97St58UpAxu4V1rYRaEHuIEc5pJHYD_rS9oTbF2YqCQv80UjIeItz8glE4fkrUtOzgJlnODLYpG710QfvAXznEhdAoCf7K2ldgv9_SKEOfRas5lkOPfFxuj9f9p6xSWaRccmgdyZnwDrlmdVjZZZSpqSmgUkasqy8FsWMlOuG0XKb_jv6w1Mu-VTwhn6RqzPbjao1nuEqjSvFMNsZd-EfA87_wsSFo0tuHQduLhaU9A7dnDpVCEMmb05WSxrJ7XaXqBWcRvXb5Km1g77EzgWrfahpJcKDVeHv13mRZnVRLs4bbQ5NEBV7epTJzCrAHGM5Dw6X065tgiskUeMayYW-6htwjC5tLfaojH1mxvNDqCx0SUOZVaW1EhvFcrBVAc1NbUikcLSTEDkpMLmJB8ydrcLMSirg44F4c-oLMFxVJb3CVX2CBeF1g1tqHZSGn_LiuvQcQP2_mjkqRutHjGQUbH4hQPr0PH7vP7dVg7Kl97Gax0WT6Gn3y7QskzNAb8EME1-wHGPe3lCsaT0zmXvZGuKn9M5z7vd4yhi51qN2LlrIEwkFfW-V8TKAlSIBB6XJR-k-oeq2YnPFa7xoBaEqpFkD2KpUrtyd-hqit06KZePSU-BQdpzfzo8_rx-q748YErshTHWJ13H2leMMU0cm0J-24uIb3nV7UtFeH-EDqYguqXibKXzvtenmEk25X-lROD31bEz1VximfDAhe7WxT4KFjzmvBW5En5dQzKXQo0FGcw5yqI0EG-gqLQbCZx6r0QwcD2bEvLWtxDXOTDjrfmDqrTmJEskW8aYsz4sbt2Z7g03-QG6wAnpbwLIgtcuIiET0TSgQcckya8nuS4NkNW_UsffrEnqxEE2ZHY86osu0182dzpqJbr9lCuUpkatKQfrkB1nO3KT4fa3keGUPawB17tjs_ZAhhKOX-X3Xz-3MUXXaGxSotxR46lNdZdaZWQrSL17Fmrc5eSWGzAAV95JTQyD7VxMrL4hxq_IaVNasC_AW4qHOf0MK6_7gnt6bifxeS5HB4Dpcp2iohZdODyX2lAdann6Wh6YUEjGh6WGSrfbhxeIQSc57gELKMc0ohaYDxzuSpo1Pc9hdRr8Y42IoLPDI7XnqRNuMGDX4hK6mOLC80ZYc0f8ve_Orjfx2vCAPVfBkL5kygf7tO2bFAYzPtI9mSMmQQdNUVj9NnBFqv9PZCJGpt30dfqGm8dool___QHVj7fD3_yB5ElXTLveCliBhpboWHt1wWmSXO-GkooIDnhJckTzgKCno4sK7LTsVZDO410ESml_uVNjsI1qa3JoFcjjDEO57cl2XFuK6fSQfbtG5WZfb91b2pmYgEM5lXggDWowT4ltvivyb7o3hlulhPd6-BPs6Y4c4BuxLoLZ9F1cQf-AunlMNJqjQxEorZkBgTfL1JmmMEgzEDkJtOp6h1Q62HGk46DlwPPSOEvRYezjUVII7080GjWiJTxcRxHsAMl0udQ69PBvp7wafO6m0ygwjpGPzL6N5aJ8PBrPGIOn8Lv53L2AwSTwDj7qAA7bUrFOqycg1Yb45h_i_d2nrSNUiHKAT9Q/https://www.amazon.com/dp/B07BHKNF78/?_encoding=UTF8&pd_rd_i=B07BHKNF78&pd_rd_i=B07BHKNF78&ref_=sbx_be_s_sparkle_ssd_cta&pd_rd_w=PRnea&content-id=amzn1.sym.ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_p=ccb770a9-35d1-4af6-8af2-bcbd12656fbb&pf_rd_r=F43W26WWWBV10MEJ9D82&pd_rd_wg=ArJpn&pd_rd_r=94fd79b2-3768-4c2a-82f9-edc1bdc8c0ad",
+      "link_clean": "https://www.amazon.com/dp/B07BHKNF78/",
+      "serpapi_link": "https://serpapi.com/search.json?amazon_domain=amazon.com&asin=B07BHKNF78&device=desktop&engine=amazon_product",
+      "thumbnail": "https://m.media-amazon.com/images/I/41mVS+7lFdL._AC_SR100,100_QL65_.jpg",
+      "video": {
+        "link": "https://m.media-amazon.com/images/S/al-na-9d5791cf-3faf/2646762c-cc59-4d34-8a44-6a0801b17572.mp4/productVideoOptimized.mp4",
+        "thumbnail": "https://m.media-amazon.com/images/S/al-na-9d5791cf-3faf/2646762c-cc59-4d34-8a44-6a0801b17572.mp4/r/THUMBNAIL_360P_FRAME_3_CAPTURE_2.JPG"
+      },
+      "rating": 4.7,
+      "reviews": 1307,
+      "price": "$48.17",
+      "extracted_price": 48.17
+    }
+  ],
+  "reviews_information": {
+    "summary": {
+      "text": "Customers find this energy drink delicious and appreciate its 200mg of natural caffeine, noting it helps with both energy and focus. The drink receives positive feedback for its taste, with one customer comparing it favorably to Monster, and they value its great value for money. Customers report it provides a good boost without jitters or crashes, and one customer mentions it works well as a pre-workout drink. While customers generally like the product, some report issues with leaking cans.",
+      "insights": [
+        {
+          "title": "Flavor",
+          "sentiment": "positive",
+          "mentions": {
+            "total": 1000,
+            "positive": 900,
+            "negative": 180
+          },
+          "summary": "Customers enjoy the energy drink's flavor, finding it really good and not too sour, with one customer noting it's not overwhelming.",
+          "examples": [
+            {
+              "position": 1,
+              "snippet": "Great Taste, Unfortunately recieved damaged case... still tastes great... but sucks getting empty cans with how much this cost me... if I could buy...",
+              "link": "https://www.amazon.com/gp/customer-reviews/R1B3KXNZ3LWGL3"
+            },
+            {
+              "position": 2,
+              "snippet": "...Ghost Cherry Limeade is a great flavor, no itchy skin crawling pre workout feeling. No crash. 200mg of caffeine, so overall, a good choice and value.",
+              "link": "https://www.amazon.com/gp/customer-reviews/R1W1VF50TXHE2M"
+            },
+            {
+              "position": 3,
+              "snippet": "...I got to try this ONE TIME. It is hands down the BEST flavor that not only Ghost has ever made, but the best flavor ANY ENERGY DRINK company has...",
+              "link": "https://www.amazon.com/gp/customer-reviews/R2YEHSXQDWFDP2"
+            },
+            {
+              "position": 4,
+              "snippet": "...so although it took a long time, it did arrive safely.... amd still delicious. They could certainly improve on the shipping times!",
+              "link": "https://www.amazon.com/gp/customer-reviews/R19NVHSCZ1H9MW"
+            }
+          ]
+        },
+        {
+          "title": "Energy level",
+          "sentiment": "positive",
+          "mentions": {
+            "total": 288,
+            "positive": 278,
+            "negative": 10
+          },
+          "summary": "Customers find this energy drink effective, noting it keeps them going all day and provides a good boost, with one customer mentioning it helps with both energy and focus.",
+          "examples": [
+            {
+              "position": 1,
+              "snippet": "Ghost Energy is the best energy drink that i've tasted so far. All the flavors have a nice kick to them. Works better with no crash....",
+              "link": "https://www.amazon.com/gp/customer-reviews/R1OMJTSCISC5SM"
+            },
+            {
+              "position": 2,
+              "snippet": "Definitely a great energy drink but 3 cans were damaged inside box that wasn't damaged.. purposely sent damaged product... update ghost contacted me...",
+              "link": "https://www.amazon.com/gp/customer-reviews/R3MWFRFM09R0HX"
+            },
+            {
+              "position": 3,
+              "snippet": "LOVE LOVE LOVE LOVE LOVE THESE. MY FAVORITE ENERGY DRINK. TASTES JUST LIKE WELCH'S GRAPE JUICE AND THERE ARE NO ARTIFICIAL COLORS.",
+              "link": "https://www.amazon.com/gp/customer-reviews/R30T2HLG7UB7K4"
+            },
+            {
+              "position": 4,
+              "snippet": "...no powder aftertaste the citrus taste is wonderful one of the best energy drinks I’ve ever tasted and I’ve tried them all and it gives you energy...",
+              "link": "https://www.amazon.com/gp/customer-reviews/R17VHZNGV3BAJ9"
+            }
+          ]
+        },
+        {
+          "title": "Taste",
+          "sentiment": "positive",
+          "mentions": {
+            "total": 248,
+            "positive": 234,
+            "negative": 14
+          },
+          "summary": "Customers enjoy the taste of this energy drink, comparing it favorably to Monster and praising its grape flavor, with one customer specifically mentioning the raspberry cream variant.",
+          "examples": [
+            {
+              "position": 1,
+              "snippet": "Great product but this is the second time I received a can that is defective. There's no holes but it's half empty and the can is super squishy....",
+              "link": "https://www.amazon.com/gp/customer-reviews/R2LRCP10V2D9LE"
+            },
+            {
+              "position": 2,
+              "snippet": "...all of them have a very powerful sweetness to them, but overall, a great drink. I just wish they weren't so expensive!",
+              "link": "https://www.amazon.com/gp/customer-reviews/R122JJZBFN5ST"
+            },
+            {
+              "position": 3,
+              "snippet": "This is a good product and it tastes great but the package can damaged so order with caution.",
+              "link": "https://www.amazon.com/gp/customer-reviews/RA2Y5YNHCBTK4"
+            },
+            {
+              "position": 4,
+              "snippet": "AMAZING.",
+              "link": "https://www.amazon.com/gp/customer-reviews/R2TDXROLJLF5E"
+            }
+          ]
+        },
+        {
+          "title": "Value for money",
+          "sentiment": "positive",
+          "mentions": {
+            "total": 159,
+            "positive": 112,
+            "negative": 47
+          },
+          "summary": "Customers find the energy drink to be a great value for the money, offering incredible value for an energy boost.",
+          "examples": [
+            {
+              "position": 1,
+              "snippet": "Good price considering most stores jack it up. Came in one piece too unlike a different company I ordered from.",
+              "link": "https://www.amazon.com/gp/customer-reviews/R34TWDDJKVCKSD"
+            },
+            {
+              "position": 2,
+              "snippet": "Great price, great flavor, great shipping! Love it so much I have a monthly subscription.",
+              "link": "https://www.amazon.com/gp/customer-reviews/RN939TWR5PCO8"
+            },
+            {
+              "position": 3,
+              "snippet": "...Tastes good, more caffeinated than competitors, but expensive. Buying cases of this is just the same as buying single cans in a gas station....",
+              "link": "https://www.amazon.com/gp/customer-reviews/R2SF7AO332G2ZH"
+            },
+            {
+              "position": 4,
+              "snippet": "Great value, Great taste, packaging was as expected, product arrived without any damages. Was very happy with this purchase.",
+              "link": "https://www.amazon.com/gp/customer-reviews/R2FRQKK9UPMKK9"
+            }
+          ]
+        },
+        {
+          "title": "Caffeine content",
+          "sentiment": "positive",
+          "mentions": {
+            "total": 110,
+            "positive": 97,
+            "negative": 13
+          },
+          "summary": "Customers appreciate the energy drink's caffeine content, noting it contains 200mg of naturally derived caffeine and is sugar-free, with one customer describing it as essentially caffeinated strawberry lemonade.",
+          "examples": [
+            {
+              "position": 1,
+              "snippet": "...With natural caffeine, no sugar, and added nootropics like L-carnitine and Alpha-GPC, it gives me a smooth, focused boost without the jitters or...",
+              "link": "https://www.amazon.com/gp/customer-reviews/R1PDM6SAYU89BE"
+            },
+            {
+              "position": 2,
+              "snippet": "...They are sugar free, which js nice as my skin doesn’t agree with sugar. They really wake you up without giving you jitters....",
+              "link": "https://www.amazon.com/gp/customer-reviews/R1FC883OJIKVK2"
+            },
+            {
+              "position": 3,
+              "snippet": "This energy drink has a really great flavor and I love that it is sugar-free. Some sf drinks have a bad aftertaste but not this one. I love it.",
+              "link": "https://www.amazon.com/gp/customer-reviews/R3TSQ9SA14P2XS"
+            },
+            {
+              "position": 4,
+              "snippet": "...Performance-wise, this drink truly delivers. The 200mg of natural caffeine provided a sustained energy boost without the jittery side effects I've...",
+              "link": "https://www.amazon.com/gp/customer-reviews/R1CA2XWKDKRYG2"
+            }
+          ]
+        },
+        {
+          "title": "Boost",
+          "sentiment": "positive",
+          "mentions": {
+            "total": 86,
+            "positive": 74,
+            "negative": 12
+          },
+          "summary": "Customers appreciate the energy drink's caffeine boost, describing it as refreshing and invigorating, with one customer noting it delivers a good amount of caffeine.",
+          "examples": [
+            {
+              "position": 1,
+              "snippet": "I take these with me to the gym for powerlifting. Refreshing and only 10 calories for a big size can. Ok at room temp but way better chilled....",
+              "link": "https://www.amazon.com/gp/customer-reviews/R2SVE123TTIDMA"
+            },
+            {
+              "position": 2,
+              "snippet": "...I have one about lunch time, drink it slowly and I'm energized, alert, focus better, and I don't get the jitters other energy drinks give you....",
+              "link": "https://www.amazon.com/gp/customer-reviews/R14NKZWBJ8KGIY"
+            },
+            {
+              "position": 3,
+              "snippet": "...It is carbonated and sour and it’s the only brand that doesn’t seem to make my stomach hurt from all the sweetness....",
+              "link": "https://www.amazon.com/gp/customer-reviews/R1IZ01E2G5TELW"
+            },
+            {
+              "position": 4,
+              "snippet": "...Great taste and gives me enough of a boost but no crash or jitters from being over caffeinated.",
+              "link": "https://www.amazon.com/gp/customer-reviews/R2S926LYLCZVOT"
+            }
+          ]
+        },
+        {
+          "title": "Jitteriness",
+          "sentiment": "positive",
+          "mentions": {
+            "total": 69,
+            "positive": 66,
+            "negative": 3
+          },
+          "summary": "Customers appreciate that the energy drink provides alertness without causing jitters or a crash.",
+          "examples": [
+            {
+              "position": 1,
+              "snippet": "This has been my favorite energy drink for almost 2 years. It has no crash and no jitters. If you like lemon flavored drinks you’ll like this chilled!",
+              "link": "https://www.amazon.com/gp/customer-reviews/R3U9R1TF88A5PL"
+            },
+            {
+              "position": 2,
+              "snippet": "No jitters, good for those with a.d.d/ a.d h.d. I love the taste, no bad after taste, no reflux like other brands....",
+              "link": "https://www.amazon.com/gp/customer-reviews/R3TQJCUWX8HW4H"
+            },
+            {
+              "position": 3,
+              "snippet": "Taste is on point without the jitters or crash! Love. That they are zero sugar too!",
+              "link": "https://www.amazon.com/gp/customer-reviews/R2T848ROPMEUHK"
+            },
+            {
+              "position": 4,
+              "snippet": "...It gives me the right amount of energy and focus without the jitters, helping me power through my day or intense workouts....",
+              "link": "https://www.amazon.com/gp/customer-reviews/R3EPR7AM03RKGX"
+            }
+          ]
+        },
+        {
+          "title": "Leakage",
+          "sentiment": "negative",
+          "mentions": {
+            "total": 54,
+            "positive": 11,
+            "negative": 43
+          },
+          "summary": "Customers report issues with the energy drink cans leaking, with multiple customers noting that the liquid spills onto other cans.",
+          "examples": [
+            {
+              "position": 1,
+              "snippet": "Product arrived dented, bent and leaking. Some of them were damaged so bad they couldn’t be opened with the pull tab.",
+              "link": "https://www.amazon.com/gp/customer-reviews/R1OL83TDKNS1RB"
+            },
+            {
+              "position": 2,
+              "snippet": "This is the second time I have received an order that has had leaking cans. The package is damaged from the leak....",
+              "link": "https://www.amazon.com/gp/customer-reviews/R1DQP22UFNJJRN"
+            },
+            {
+              "position": 3,
+              "snippet": "It tasted ok but the one can was leaking, so I paid for $12, but only ended up with 11 I could use",
+              "link": "https://www.amazon.com/gp/customer-reviews/RW7YQEJZ2UNFH"
+            },
+            {
+              "position": 4,
+              "snippet": "...7 of 12 cans were dented and deformed on the tops. No leaks, so that was good. Otherwise, was factory wrapped in plastic and a box....",
+              "link": "https://www.amazon.com/gp/customer-reviews/R3TNB07CRHXLQC"
+            }
+          ]
+        }
+      ],
+      "images": [
+        "https://m.media-amazon.com/images/I/71z1YAARYUL.jpg",
+        "https://m.media-amazon.com/images/I/61t2wtHNi5L.jpg",
+        "https://m.media-amazon.com/images/I/618S2gb2fHL.jpg",
+        "https://m.media-amazon.com/images/I/81-yH1jii0L.jpg",
+        "https://m.media-amazon.com/images/I/81N7OQqtfoL.jpg",
+        "https://m.media-amazon.com/images/I/61fCXfKoOsL.jpg",
+        "https://m.media-amazon.com/images/I/71cZ4i8GOTL.jpg",
+        "https://m.media-amazon.com/images/I/715NIRVM6+L.jpg",
+        "https://m.media-amazon.com/images/I/71Uo4qaijcL.jpg",
+        "https://m.media-amazon.com/images/I/710HLEOQyUL.jpg",
+        "https://m.media-amazon.com/images/I/61m-oIyydOL.jpg",
+        "https://m.media-amazon.com/images/I/715WH3DHbGL.jpg"
+      ],
+      "customer_reviews": {
+        "5 star": 80,
+        "4 star": 9,
+        "3 star": 4,
+        "2 star": 2,
+        "1 star": 5
+      }
+    },
+    "authors_reviews": [
+      {
+        "position": 1,
+        "title": "Does the job and tastes good.",
+        "text": "Always and decent deal instead of buying it per the can unless it's on sale. Low calorie and a good drink quality with better ingredients than most energy drinks. The size is typical for most energy drinks. Plenty carbonated and tastes good. Definitely helps me stay energized and awake on sleepy days.",
+        "rating": 5.0,
+        "date": "January 22, 2026",
+        "author": "Jane Burrow",
+        "author_link": "https://www.amazon.com/gp/profile/amzn1.account.AGO2KV364AO5VR6O3MN4UKJQM2QQ/ref=cm_cr_dp_d_gw_tr?ie=UTF8",
+        "author_image": "https://m.media-amazon.com/images/S/amazon-avatars-global/default.png",
+        "verified_purchase": true,
+        "product": {
+          "flavor_name": "Cherry Limeade",
+          "size": "16 Fl Oz (Pack of 12)"
+        }
+      },
+      {
+        "position": 2,
+        "title": "⭐⭐⭐⭐⭐ A Smooth, Nostalgic Flavor With Clean Energy That Actually Feels Good",
+        "text": "I’ve tried a lot of energy drinks over the years, and the GHOST Orange Cream flavor is easily one of the standouts. If you want something that delivers steady energy without the chemical aftertaste or jittery crash, this 12‑pack is a great pick.🍊 Flavor: Orange Cream Done RightThe taste is the first thing that hits you—in a good way. It’s like a melted orange creamsicle, smooth and sweet without being syrupy. The flavor is bold but not overpowering, and there’s no weird artificial aftertaste. It’s refreshing enough to drink in the morning or as a mid‑afternoon pick‑me‑up.⚡ Energy & FocusThe energy boost is clean and steady. It kicks in quickly but doesn’t spike or crash later. It’s great for:Work or study sessionsLong drivesGym daysAfternoon slumpsYou feel alert and focused, not wired or shaky.🧪 No Artificial ColorsThis is a big plus. The drink looks clean, tastes clean, and doesn’t rely on artificial dyes to make it appealing. It’s nice to see a brand that keeps things simple without compromising flavor.🥤 Packaging & ConvenienceThe 12‑pack is perfect for stocking up without taking over your fridge. The cans are sturdy, easy to open, and the branding is eye‑catching without being over the top.💬 Final ThoughtsIf you’re looking for an energy drink that tastes great, feels smooth, and avoids the artificial extras, GHOST Orange Cream is a fantastic choice. It’s nostalgic, refreshing, and genuinely effective. This has quickly become one of my go‑to flavors.",
+        "rating": 5.0,
+        "date": "January 15, 2026",
+        "author": "Charles “Mike” Kelley",
+        "author_link": "https://www.amazon.com/gp/profile/amzn1.account.AEUQM5WB2YTVTYDD3GLDRS6DXDFA/ref=cm_cr_dp_d_gw_tr?ie=UTF8",
+        "author_image": "https://m.media-amazon.com/images/S/amazon-avatars-global/41d1f66b-1a35-420f-ad44-93522a7ea096._CR0%2C0%2C720%2C720_SX460_.jpg",
+        "helpful_votes": "One person found this helpful",
+        "verified_purchase": true,
+        "product": {
+          "flavor_name": "Orange Cream",
+          "size": "16 Fl Oz (Pack of 12)"
+        }
+      },
+      {
+        "position": 3,
+        "title": "Best Energy Drink On The Market",
+        "text": "This is the most effective, best tasting energy drink on the market. They are sugar free, which js nice as my skin doesn’t agree with sugar. They really wake you up without giving you jitters. Perfectly balanced ingredients, no bad after taste. Good price if you buy in bulk",
+        "rating": 5.0,
+        "date": "January 23, 2026",
+        "author": "Chris D",
+        "author_link": "https://www.amazon.com/gp/profile/amzn1.account.AG6RGXRI4MB4WCIPUYH3TKAG4XTA/ref=cm_cr_dp_d_gw_tr?ie=UTF8",
+        "author_image": "https://m.media-amazon.com/images/S/amazon-avatars-global/default.png",
+        "helpful_votes": "One person found this helpful",
+        "verified_purchase": true,
+        "product": {
+          "flavor_name": "Cherry Limeade",
+          "size": "16 Fl Oz (Pack of 12)"
+        }
+      },
+      {
+        "position": 4,
+        "title": "🔥🇺🇸 GHOST Energy Drink ’Merica Pop – Popsicle Flavor Perfection",
+        "text": "⭐⭐⭐⭐⭐Amazing taste, just like a bomb popsicle. Gives a nice energy boost but doesn’t give jitters, which is a huge plus. Perfect for work, workouts, or just when you need a flavorful pick-me-up.",
+        "rating": 5.0,
+        "date": "January 9, 2026",
+        "author": "J",
+        "author_link": "https://www.amazon.com/gp/profile/amzn1.account.AHUOKV2YFGVI3AFCPG5ZQI2BYOGQ/ref=cm_cr_dp_d_gw_tr?ie=UTF8",
+        "author_image": "https://m.media-amazon.com/images/S/amazon-avatars-global/4eac4400-a789-48d2-9c92-43bb3c12f990._CR71%2C0%2C357%2C357_SX460_.jpg",
+        "verified_purchase": true,
+        "product": {
+          "flavor_name": "Merica Pop",
+          "size": "16 Fl Oz (Pack of 12)"
+        }
+      },
+      {
+        "position": 5,
+        "title": "Daily Drinker Warning: Great Energy, but Watch Your Teeth!",
+        "text": "No sugar which is great and this energy drink has become a staple but it is also very acidic so watch out if you have very thin teeth like me. I often find it increasing my sensitivity by a lot so a sensitivity toothpaste daily is essential for me since I drink these daily.The feeling or energy from these is great, I have been drinking similar ones like G fuel for years and this gives me significantly more energy. A quick tip though is many dollar trees have Gfuel available so if you need sugar free energy drinks like me, they provide cheaper deals - currently dollar tree has G fuel for 1.25$ a can which is quite cost effective compared to Ghost.Drinkability is mixed with Ghost, they are strong drinks. I often find G fuel being very refreshing and enjoyable while Ghost is very concentrated.Comparison - Gfuel vs. Ghost ingredients and focusGhost:Focus - Cognitive function, energy metabolism, and premium/transparent sourcing.Caffeine - Natural from coffee beansNootropics - Alpha-GPC, NeuroFactor™ Coffee Fruit Extract.Performance - Carnipure® L-Carnitine L-Tartrate, Taurine.What makes it unique - AstraGin® (absorption enhancer), transparent proprietary blends.Sweeteners - Sucralose, Acesulfame Potassium.Gfuel:Focus - support for focus and antioxidants.Caffeine - syntheticNootropics - L-tyrosine and L-theaninePerformance - Taurine, L-citrulline malateWhat makes it unique - Extensive Antioxidant Complex, high dose of Vitamins C, E, and B-vitamins.Sweeteners - Sucralose, Acesulfame Potassium.The bottom line here: G Fuel for maximum boost and vitamins; Ghost for premium, clean, and focused energy. Ghost is mostly proprietary blends of vitamins which is something to keep in mind since we do not know what is in them while G fuel is more transparent for the most part. I recommend trying both and seeing what works best for you.",
+        "rating": 4.0,
+        "date": "November 27, 2025",
+        "author": "Zach",
+        "author_link": "https://www.amazon.com/gp/profile/amzn1.account.AFCT6LV6J7AE2X6PIC2YJEJLMPMQ/ref=cm_cr_dp_d_gw_tr?ie=UTF8",
+        "author_image": "https://m.media-amazon.com/images/S/amazon-avatars-global/5dd7bd36-2b21-407e-b674-8d80dffd8966._CR0%2C0%2C500%2C500_SX460_.jpeg",
+        "helpful_votes": "12 people found this helpful",
+        "verified_purchase": true,
+        "product": {
+          "flavor_name": "Orange Cream",
+          "size": "16 Fl Oz (Pack of 12)"
+        }
+      },
+      {
+        "position": 6,
+        "title": "Grape is awesome",
+        "text": "Ghost doesn’t miss, all their drinks are delicious.But man Amazon STINKS at shipping them. They send me my cases in the bags and they get banged up and dented or broken 50% of the time. They always have replaced or made it right but I wish they’d ship them in a box or something to mitigate issues.",
+        "rating": 5.0,
+        "date": "January 14, 2026",
+        "author": "Jeremy",
+        "author_link": "https://www.amazon.com/gp/profile/amzn1.account.AHTY4QPHW4YPWSP7E5HY42FIGQFA/ref=cm_cr_dp_d_gw_tr?ie=UTF8",
+        "author_image": "https://m.media-amazon.com/images/S/amazon-avatars-global/default.png",
+        "images": [
+          "https://m.media-amazon.com/images/I/71z1YAARYUL._SY88.jpg"
+        ],
+        "helpful_votes": "2 people found this helpful",
+        "verified_purchase": true,
+        "product": {
+          "flavor_name": "Welch's Grape",
+          "size": "16 Fl Oz (Pack of 12)"
+        }
+      },
+      {
+        "position": 7,
+        "title": "Perfect for sour lovers — true Warheads flavor",
+        "text": "This is one of my all-time favorite energy drinks. If you love sour flavors, this one is for you. It tastes just like the Warheads candy and never loses that sour kick or turns overly sweet, which has always been my main issue with the candy itself.Great flavor, consistent sourness, and very enjoyable. I keep coming back to this one.",
+        "rating": 5.0,
+        "date": "January 6, 2026",
+        "author": "Mitchell Carpenter",
+        "author_link": "https://www.amazon.com/gp/profile/amzn1.account.AG5PHZLXQ3ROTRTAK26IVDG7OUEQ/ref=cm_cr_dp_d_gw_tr?ie=UTF8",
+        "author_image": "https://m.media-amazon.com/images/S/amazon-avatars-global/default.png",
+        "helpful_votes": "2 people found this helpful",
+        "verified_purchase": true,
+        "product": {
+          "flavor_name": "Warheads Sour Green Apple",
+          "size": "16 Fl Oz (Pack of 12)"
+        }
+      },
+      {
+        "position": 8,
+        "title": "Fantastic!",
+        "text": "I’ve ordered the ghost welch’s grape at least 6 times now and it’s never disappointed! Love the grape flavor. I’ve never had any damaged cans! This 100% beats buying singles of ghost or any other energy drink at the grocery store! Already have drank 5 cans out of the picture attached!",
+        "rating": 5.0,
+        "date": "January 10, 2026",
+        "author": "Graeme C",
+        "author_link": "https://www.amazon.com/gp/profile/amzn1.account.AF3GVE2VD7JBS446MSH5QEMDE6MQ/ref=cm_cr_dp_d_gw_tr?ie=UTF8",
+        "author_image": "https://m.media-amazon.com/images/S/amazon-avatars-global/default.png",
+        "images": [
+          "https://m.media-amazon.com/images/I/61t2wtHNi5L._SY88.jpg"
+        ],
+        "helpful_votes": "2 people found this helpful",
+        "verified_purchase": true,
+        "product": {
+          "flavor_name": "Welch's Grape",
+          "size": "16 Fl Oz (Pack of 12)"
+        }
+      }
+    ],
+    "other_countries_reviews": [
+      {
+        "position": 1,
+        "title": "What a flavour",
+        "text": "Flavour is 5 stars. Might get boring after a while but definitely worth adding to your rotation of energy drinks. Absolutely lush flavour. Love it",
+        "rating": 5.0,
+        "date": "December 21, 2024",
+        "author": "WMW",
+        "author_image": "https://m.media-amazon.com/images/S/amazon-avatars-global/default.png",
+        "verified_purchase": true,
+        "product": {
+          "flavor_name": "Sour Pink Lemonade",
+          "size": "16 Fl Oz (Pack of 12)"
+        }
+      },
+      {
+        "position": 2,
+        "title": "Good energy",
+        "text": "Tried cherry (good taste), tropical mango (good taste), apple (good but too sour), and orange (has some bitterness). Good for energy and helps push through complex physical and mental tasks without fogginess but too diluted in ml which makes it hard to finish for full mental health benefits. Would be great if they develop the small non-carbonated shot bottles.",
+        "rating": 5.0,
+        "date": "April 10, 2024",
+        "author": "Meera",
+        "author_image": "https://m.media-amazon.com/images/S/amazon-avatars-global/default.png",
+        "verified_purchase": true,
+        "product": {
+          "flavor_name": "Tropical Mango",
+          "size": "16 Fl Oz (Pack of 12)"
+        }
+      },
+      {
+        "position": 3,
+        "title": "All the cans were smashed!",
+        "text": "Love this drink but my entire case wash smashed! Some of cans were building at the top, others were smashed and dented. Absolutely shocked at the condition this arrived in. It’s not a cheap price for 12 cans, so I expect better. Cannot return this item either so I’m stuck with defective cans. Not sure if they’re safe to drink so I won’t risk it. An absolute waste to be honest. Dissatisfied and disappointed ❌❌",
+        "rating": 1.0,
+        "date": "January 27, 2024",
+        "author": "Frankie",
+        "author_image": "https://m.media-amazon.com/images/S/amazon-avatars-global/default.png",
+        "verified_purchase": true,
+        "product": {
+          "flavor_name": "Warheads Sour Green Apple",
+          "size": "16 Fl Oz (Pack of 12)"
+        }
+      }
+    ]
+  }
+}

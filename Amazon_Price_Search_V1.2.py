@@ -16,8 +16,8 @@ if "SERPAPI_API_KEY" not in st.secrets:
 SERPAPI_API_KEY = st.secrets["SERPAPI_API_KEY"]
 #################################################################
 #Set an array of all of the items we want to search. 
-#asin_codes = ["B0DF1L929C", "B0GFC458B3", "B0FJVHTYK3", "B09YGL4BCM", "B08MWBFMX5", "B09YG6LN3W", "B0DQ6ZFD98", "B0BHKR7Z4L", "B08MW9LXK7"]
-allASINs = ['B0DF1L929C']
+allASINs = ["B0DF1L929C", "B0GFC458B3", "B0FJVHTYK3", "B09YGL4BCM", "B08MWBFMX5", "B09YG6LN3W", "B0DQ6ZFD98", "B0BHKR7Z4L", "B08MW9LXK7"]
+#allASINs = ['B0DF1L929C']
 #################################################################
 #Define a function that will figure out where the script is running. This is used to get the folder path for the output json
 def get_base_dir():
