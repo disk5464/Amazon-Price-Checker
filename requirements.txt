@@ -1,4 +1,6 @@
-serpapi
 streamlit
-pandas
 pathlib
+os
+requests
+time
+bs4
