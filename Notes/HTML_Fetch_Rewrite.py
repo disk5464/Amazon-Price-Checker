@@ -1,10 +1,10 @@
 #Import the libaries
-import requests, time
+import os,requests, time
 from bs4 import BeautifulSoup
 
 #Make a list of the items we want to search
-#allASINs = ["B0DF1L929C", "B0GFC458B3", "B0FJVHTYK3", "B09YGL4BCM","B08MWBFMX5", "B09YG6LN3W", "B0DQ6ZFD98", "B0BHKR7Z4L", "B08MW9LXK7"]
-allASINs = ["B0DQ6ZFD98"]
+allASINs = ["B0DF1L929C", "B0GFC458B3", "B0FJVHTYK3", "B09YGL4BCM","B08MWBFMX5", "B09YG6LN3W", "B0DQ6ZFD98", "B0BHKR7Z4L", "B08MW9LXK7"]
+#allASINs = ["B0DQ6ZFD98"]
 #Create a new session variable and add in some headers so that the requests look more like a browser made them
 session = requests.Session()
 session.headers.update({
@@ -25,7 +25,6 @@ def get_first_non_empty_text(html_soup, css_selectors):
             continue
 
         extracted_text = matched_element.get_text(strip=True)
-
         if extracted_text:
             return extracted_text
 
@@ -73,18 +72,29 @@ for ASIN in allASINs:
 
             #There are 3 different places where the price can spawn in the HTML depending on how the page loads. Set an array of each localtion.
             price_css_selectors = [
+                "#outOfStock span.a-color-price.a-text-bold",
                 "#apex_offerDisplay_desktop span.a-price span.a-offscreen",
                 "#corePriceDisplay_desktop_feature_div span.aok-offscreen",
                 "span.a-price span.a-offscreen",
             ]
 
             #Feed that array into the function that finds out if the price is present. Return that value, remove the dollar sign, save it to an output variable
-            price = get_first_non_empty_text(soup, price_css_selectors).replace("$","")
-
+            currentPrice = get_first_non_empty_text(soup, price_css_selectors).replace("$","")
+            
+            #Figure out if the item is on sale or not
+            if currentPrice is not None and currentPrice < 29.99:
+                #Set a variable for the MSRP then use it along with the current price to figure out what precent off it is. Finally set a variable for the fact that it is on sale
+                msrp = 29.99
+                percentOff = f"{round(get_percentage_decrease(currentPrice, msrp))} %"
+            elif currentPrice is "Currently unavailable." :
+                percentOff = "0%"
+            else:
+                percentOff = "Not on Sale"
+                
             print("ASIN:", ASIN)
             print("Flavor:", flavor)
             print("Thumbnail:", thumbnail)
-            print("Price:", price)
+            print("Price:", currentPrice)
             print("##############################################################")
 
 
@@ -92,7 +102,6 @@ for ASIN in allASINs:
 
 
 #TO DO: 
-# Need to figure out how to handle when an item is sold out
 # Need to add something to the beginning while the data is being pulled. 
 # Need to add a print() for when an item is found (Makes it easier to check that it works)
 #

@@ -45,6 +45,13 @@ session.headers.update({
 })
 
 #################################################################
+#Create a streamlit progress bar. This gets displayed and incrimented as the data is gathered.
+progress_text = "Gathering pricing info. Please wait."
+my_bar = st.progress(0.0, text=progress_text)
+
+total_items = len(allASINs)
+items_done = 0
+#################################################################
 #This for loop will scrape amazon for each product page and export it to a json file
 for ASIN in allASINs:
     #Reset the blocked variable. This is so that the script will retry untill it becomes unblocked
@@ -70,7 +77,6 @@ for ASIN in allASINs:
         else: 
             #Set the block variable to False so we will move onto the next item after this pass since we are not blocked
             currentlyblocked = False
-
             #################################################################
             #Scrap the main item image and save it to a variable
             main_img = soup.find("img", id="landingImage")
@@ -90,20 +96,24 @@ for ASIN in allASINs:
             #################################################################
             #There are 3 different places where the price can spawn in the HTML depending on how the page loads. Set an array of each localtion.
             price_css_selectors = [
+                "#outOfStock span.a-color-price.a-text-bold",
                 "#apex_offerDisplay_desktop span.a-price span.a-offscreen",
                 "#corePriceDisplay_desktop_feature_div span.aok-offscreen",
                 "span.a-price span.a-offscreen",
             ]
 
             #Feed that array into the function that finds out if the price is present. Return that value, remove the dollar sign, save it to an output variable
-            currentPrice = float(get_first_non_empty_text(soup, price_css_selectors).replace("$",""))
+            currentPrice = get_first_non_empty_text(soup, price_css_selectors)
+            if currentPrice and "$" in currentPrice:
+                currentPrice = float(currentPrice.replace("$",""))
+            else:
+                currentPrice = None
 
             #Figure out if the item is on sale or not
             if currentPrice is not None and currentPrice < 29.99:
                 #Set a variable for the MSRP then use it along with the current price to figure out what precent off it is. Finally set a variable for the fact that it is on sale
                 msrp = 29.99
                 percentOff = f"{round(get_percentage_decrease(currentPrice, msrp))} %"
-
             else:
                 percentOff = "Not on Sale"
 
@@ -117,7 +127,13 @@ for ASIN in allASINs:
                 "precent_off": percentOff,
                 "URL": amazon_url
             })
-
+            #print(flavor)
+            #print(currentPrice)
+            #print(percentOff)
+            items_done += 1
+            my_bar.progress(items_done / total_items, text=f"{progress_text} ({items_done}/{total_items})")
+                
+my_bar.empty()
 #################################################################
 #This section will build the streamlit web page. First start by setting the CSS of each section
 st.markdown("""

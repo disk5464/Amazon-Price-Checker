@@ -1,1 +1,4 @@
 .streamlit/secrets.toml
+
+#Below the the command to run the script on the command line
+# python -m streamlit run "c:/Users/scoob/Documents/Important Stuff/Files/Python/Traffic Camera Live Stream/Amazon_Price_Search_V2.1.py"
