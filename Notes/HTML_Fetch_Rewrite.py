@@ -3,8 +3,8 @@ import requests, time
 from bs4 import BeautifulSoup
 
 #Make a list of the items we want to search
-allASINs = ["B0DF1L929C", "B0GFC458B3", "B0FJVHTYK3", "B09YGL4BCM","B08MWBFMX5", "B09YG6LN3W", "B0DQ6ZFD98", "B0BHKR7Z4L", "B08MW9LXK7"]
-
+#allASINs = ["B0DF1L929C", "B0GFC458B3", "B0FJVHTYK3", "B09YGL4BCM","B08MWBFMX5", "B09YG6LN3W", "B0DQ6ZFD98", "B0BHKR7Z4L", "B08MW9LXK7"]
+allASINs = ["B0DQ6ZFD98"]
 #Create a new session variable and add in some headers so that the requests look more like a browser made them
 session = requests.Session()
 session.headers.update({
@@ -86,3 +86,14 @@ for ASIN in allASINs:
             print("Thumbnail:", thumbnail)
             print("Price:", price)
             print("##############################################################")
+
+
+
+
+
+#TO DO: 
+# Need to figure out how to handle when an item is sold out
+# Need to add something to the beginning while the data is being pulled. 
+# Need to add a print() for when an item is found (Makes it easier to check that it works)
+#
+#
