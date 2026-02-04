@@ -1,6 +1,5 @@
 streamlit
 pathlib
-os
 requests
 time
 bs4
