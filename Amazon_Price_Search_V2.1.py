@@ -1,5 +1,6 @@
 #Version 1.0: Initial Commit
 #Version 1.1: Removed the sempai specific data filtering in place of regular json parsing. This will make it so that if the app needs to be restarted it can just use the existing files and not have to re scrap amazon
+#Version 2.1: Rewrote the amazon scrape to remove the sempai API.
 #################################################################
 import os, requests, time, bs4
 import streamlit as st
@@ -8,7 +9,7 @@ from bs4 import BeautifulSoup
 
 #################################################################
 #Set an array of all of the items we want to search. Then set an empty array for the output items
-allASINs = ["B0DF1L929C", "B0GFC458B3", "B0FJVHTYK3", "B09YGL4BCM", "B08MWBFMX5", "B09YG6LN3W", "B0DQ6ZFD98", "B0BHKR7Z4L", "B08MW9LXK7"]
+allASINs = ["B0DF1L929C", "B0GFC458B3", "B0FJVHTYK3", "B09YGL4BCM", "B08MWBFMX5", "B09YG6LN3W", "B0DQ6ZFD98", "B0BHKR7Z4L", "B08MW9LXK7", "B08MW95QC9"]
 #allASINs = ['B0DF1L929C']
 
 rows = []

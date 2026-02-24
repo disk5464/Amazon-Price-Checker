@@ -1,103 +1,140 @@
 #Version 1.0: Initial Commit
 #Version 1.1: Removed the sempai specific data filtering in place of regular json parsing. This will make it so that if the app needs to be restarted it can just use the existing files and not have to re scrap amazon
+#Version 2.1: Rewrote the amazon scrape to remove the sempai API.
 #################################################################
-import json, os, serpapi
+import os, requests, time, bs4
 import streamlit as st
-import pandas as pd
-import importlib.util
 from pathlib import Path
-from datetime import datetime
+from bs4 import BeautifulSoup
 
-#Import the API key from the secrets.toml file. Run a check to make sure it actually worked.
-if "SERPAPI_API_KEY" not in st.secrets:
-    st.error("Missing SERPAPI_API_KEY in Streamlit secrets.")
-    st.stop()
-
-SERPAPI_API_KEY = st.secrets["SERPAPI_API_KEY"]
 #################################################################
-#Set an array of all of the items we want to search. 
-allASINs = ["B0DF1L929C", "B0GFC458B3", "B0FJVHTYK3", "B09YGL4BCM", "B08MWBFMX5", "B09YG6LN3W", "B0DQ6ZFD98", "B0BHKR7Z4L", "B08MW9LXK7"]
+#Set an array of all of the items we want to search. Then set an empty array for the output items
+allASINs = ["B0DF1L929C", "B0GFC458B3", "B0FJVHTYK3", "B09YGL4BCM", "B08MWBFMX5", "B09YG6LN3W", "B0DQ6ZFD98", "B0BHKR7Z4L", "B08MW9LXK7", "B08MW95QC9"]
 #allASINs = ['B0DF1L929C']
-#################################################################
-#Define a function that will figure out where the script is running. This is used to get the folder path for the output json
-def get_base_dir():
-    try:
-        return os.path.dirname(os.path.abspath(__file__))
-    except NameError:
-        return os.getcwd()
 
+rows = []
+#################################################################
 #Define the function that caculates the precent off MSRP
 def get_percentage_decrease(price, msrp):
     return ((price - msrp) / msrp) * 100
 
-#################################################################
-#This section will get the scirpt's directory, make a FDQN path out of it, then if the json out put directory dosen't exist make it. 
-base_dir = get_base_dir()
-output_dir = os.path.join(base_dir, "current_ASINs")
-os.makedirs(output_dir, exist_ok=True)
+#Define a function that takes in the soup object and a list of possible HTML elements. Check each one to see if they have any text in them. Return any found text
+def get_first_non_empty_text(html_soup, css_selectors):
+    for selector in css_selectors:
+        #Select just the html from the entire element
+        matched_element = html_soup.select_one(selector)
 
+        #If it's empty continue to the next HTML element
+        if matched_element is None:
+            continue
+
+        extracted_text = matched_element.get_text(strip=True)
+
+        if extracted_text:
+            return extracted_text
+
+    return None
+
+#################################################################
+#Create a new session variable and add in some headers so that the requests look more like a browser made them
+session = requests.Session()
+session.headers.update({
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+    "Accept-Language": "en-US,en;q=0.9",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+    "Upgrade-Insecure-Requests": "1",
+})
+
+#################################################################
+#Create a streamlit progress bar. This gets displayed and incrimented as the data is gathered.
+progress_text = "Gathering pricing info. Please wait."
+my_bar = st.progress(0.0, text=progress_text)
+
+total_items = len(allASINs)
+items_done = 0
 #################################################################
 #This for loop will scrape amazon for each product page and export it to a json file
-for item in allASINs:
-    #Print the item, then run the search and save the results to ItemOut
-    params = {"engine": "amazon_product","asin": item,"api_key": SERPAPI_API_KEY}
-    serpapiObject = serpapi.search(params)
-    
-    #Convert the serpapi object into a normal dictionary. Then convert to json and save it to a file.
-    ItemOutDict = serpapiObject.as_dict()
-    output_path = os.path.join(output_dir, f"{item}.json")
-    with open(output_path, "w", encoding="utf-8") as f:
-        json.dump(ItemOutDict, f, indent=2, ensure_ascii=False)
-        
-#################################################################
-#This section will import the json files, parse them for the info we want, then export it to the rows array. Which we will use for the grid later.
+for ASIN in allASINs:
+    #Reset the blocked variable. This is so that the script will retry untill it becomes unblocked
+    currentlyblocked = True
 
-#First get the the path that the script is running at to get all of the json files in the output directory. Then create the output array
-paths = list(Path(output_dir).glob("*.json"))
-rows = []
+    #While the search was blocked
+    while currentlyblocked == True :
+        amazon_url = f"https://www.amazon.com/dp/{ASIN}"
+        r = session.get(amazon_url, timeout=20)
+        soup = BeautifulSoup(r.text, "html.parser")
 
-for path in paths:
-    #Load in the json file
-    with path.open("r", encoding="utf-8") as f:
-        data = json.load(f)
+        # Quick block detection
+        lower = r.text.lower()
+        blocked = any(k in lower for k in ["robot check", "captcha", "/errors/validatecaptcha", "type the characters"])
 
-    #################################################################
-    #set vairables for the item_specs and product_results sections of the json
-    specs = data.get("item_specifications", {})
-    pr = data.get("product_results", {})
-    
-    #Use the products resutls variable from about, select the thumbnails section within, then select just the first link. If there are no images set it to none
-    thumbnails = pr.get("thumbnails", [])
-    first_thumbnail = thumbnails[0] if thumbnails else None
-    
-    #Figure out the precent off. Check if the current price is lower than the MSRP ($30.00)
-    currentPrice = pr.get("extracted_price")
-    
-    #################################################################
-    #Figure out if the item is on sale or not
-    if currentPrice is not None and currentPrice < 29.99:
-        #Set a variable for the MSRP then use it along with the current price to figure out what precent off it is. Finally set a variable for the fact that it is on sale
-        msrp = 29.99
-        percentOff = f"{round(get_percentage_decrease(currentPrice, msrp))} %"
+        #If the script is currently blocked wait 2 seconds then rerun that item's search
+        if blocked:
+            print(ASIN, "BLOCKED (captcha/robot page)")
+            print("##############################################################")
+            currentlyblocked = True
+            time.sleep(2)
+            continue
+        else: 
+            #Set the block variable to False so we will move onto the next item after this pass since we are not blocked
+            currentlyblocked = False
+            #################################################################
+            #Scrap the main item image and save it to a variable
+            main_img = soup.find("img", id="landingImage")
+            thumbnail = main_img.get("src") if main_img else None
 
-    else:
-        percentOff = "Not on Sale"
+            #################################################################
+            #Get the item's main title and save it to a variable. This variable has a bunch of junk in it and needs to be cleaned "GHOST Energy Drink - 12-Pack, Welch's Grape, 16oz Cans Blah blah blah"
+            title_el = soup.find("span", id="productTitle")
+            title = title_el.get_text(strip=True) if title_el else None
 
-    #################################################################
-    #Set a variable for the URL to the item's amazon page
-    asin = pr.get("asin")
-    amazon_url = f"https://www.amazon.com/dp/{asin}/" if asin else None
-    
-    #################################################################
-    #Create the "table" with each row being a differen json file and its extracted data
-    rows.append({
-        #"asin": pr.get("asin"),
-        "image": first_thumbnail,
-        "item_name": specs.get("flavor"),
-        "current_price": pr.get("extracted_price"),
-        "precent_off": percentOff,
-        "URL": amazon_url
-    })
+            #Take the title, split it on the commas, then select the second item in that list, which is just the flavor (Welch's Grape). Save that to an output variable
+            flavor = None
+            if title and "," in title:
+                parts = [p.strip() for p in title.split(",")]
+                flavor = parts[1] if len(parts) > 1 else None
+            
+            #################################################################
+            #There are 3 different places where the price can spawn in the HTML depending on how the page loads. Set an array of each localtion.
+            price_css_selectors = [
+                "#outOfStock span.a-color-price.a-text-bold",
+                "#apex_offerDisplay_desktop span.a-price span.a-offscreen",
+                "#corePriceDisplay_desktop_feature_div span.aok-offscreen",
+                "span.a-price span.a-offscreen",
+            ]
+
+            #Feed that array into the function that finds out if the price is present. Return that value, remove the dollar sign, save it to an output variable
+            currentPrice = get_first_non_empty_text(soup, price_css_selectors)
+            if currentPrice and "$" in currentPrice:
+                currentPrice = float(currentPrice.replace("$",""))
+            else:
+                currentPrice = None
+
+            #Figure out if the item is on sale or not
+            if currentPrice is not None and currentPrice < 29.99:
+                #Set a variable for the MSRP then use it along with the current price to figure out what precent off it is. Finally set a variable for the fact that it is on sale
+                msrp = 29.99
+                percentOff = f"{round(get_percentage_decrease(currentPrice, msrp))} %"
+            else:
+                percentOff = "Not on Sale"
+
+            #################################################################
+            #Create the "table" with each row being a differen json file and its extracted data
+            rows.append({
+                #"asin": pr.get("asin"),
+                "image": thumbnail,
+                "item_name": flavor,
+                "current_price": currentPrice,
+                "precent_off": percentOff,
+                "URL": amazon_url
+            })
+            #print(flavor)
+            #print(currentPrice)
+            #print(percentOff)
+            items_done += 1
+            my_bar.progress(items_done / total_items, text=f"{progress_text} ({items_done}/{total_items})")
+                
+my_bar.empty()
 #################################################################
 #This section will build the streamlit web page. First start by setting the CSS of each section
 st.markdown("""
