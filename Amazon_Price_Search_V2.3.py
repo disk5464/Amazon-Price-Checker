@@ -22,7 +22,7 @@ else:
     #Today is a scraping day, so go get the data and save it to a json
     #################################################################
     #Set an array of all of the items we want to search. Then set an empty array for the output items
-    allASINs = ["B0DF1L929C", "B0GFC458B3", "B0FJVHTYK3", "B09YGL4BCM", "B08MWBFMX5", "B09YG6LN3W", "B0DQ6ZFD98", "B0BHKR7Z4L", "B08MW9LXK7", "B08MW95QC9"]
+    allASINs = ["B0DF1L929C", "B0GFC458B3", "B0FJVHTYK3", "B09YGL4BCM", "B08MWBFMX5", "B09YG6LN3W", "B0DQ6ZFD98", "B0BHKR7Z4L", "B08MW9LXK7", "B08MW95QC9", "B0FPPLS4PX"]
     #allASINs = ['B0DF1L929C']
 
     rows = []
