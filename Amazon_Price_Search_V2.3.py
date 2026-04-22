@@ -3,16 +3,20 @@
 #Version 2.1: Rewrote the amazon scrape to remove the sempai API.
 #Version 2.2: Added a chache of the search results this way if the search was recently ran it dosen't have to run again
 #################################################################
-import os, requests, time, bs4, datetime
+import os, requests, time, bs4, datetime, json
 import streamlit as st
 from pathlib import Path
 from bs4 import BeautifulSoup
 
 #################################################################
-#Check the current day if it's not sunday or wednsday pull the data from file otherwise run the scrape
+#Check the current day. If it is not Sunday or Wednesday, pull the data from file. If it is Wednesday or Sunday, scrape amazon for fresh data
 currentday = datetime.datetime.now().strftime("%A")
-if currentday != "Sunday" or currentday != "Wednsday":
+if (currentday != "Sunday" and currentday != "Wednesday"):
     print("Pulling data from local files")
+    
+    #Import the data from file
+    with open("current_prices.json", "r") as f:
+        rows = json.load(f)
 
 else:
     #Today is a scraping day, so go get the data and save it to a json
@@ -137,6 +141,12 @@ else:
                     "precent_off": percentOff,
                     "URL": amazon_url
                 })
+                
+                #Convert the output dictionary to json and save it to a file called current_prices.json.
+                rows_json = json.dumps(rows, indent=2)
+                with open("current_prices.json", "w") as f:
+                    f.write(rows_json)
+
                 #print(flavor)
                 #print(currentPrice)
                 #print(percentOff)
