@@ -9,13 +9,19 @@ from pathlib import Path
 from bs4 import BeautifulSoup
 
 #################################################################
-#Check the current day. If it is not Sunday or Wednesday, pull the data from file. If it is Wednesday or Sunday, scrape amazon for fresh data
+#Set variables for the file path. The first gets the root directory, then the second adds the output file name. This allows us to bring in the json file and reference it since this is in docker.
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+JSON_PATH = os.path.join(BASE_DIR, "current_prices.json")
+
+#Check the current day. If it is not Sunday or Wednesday, we are going to used the json file for data.
+#If it is Wednesday or Sunday, scrape amazon for fresh data.
 currentday = datetime.datetime.now().strftime("%A")
+
 if (currentday != "Sunday" and currentday != "Wednesday"):
     print("Pulling data from local files")
     
-    #Import the data from file
-    with open("current_prices.json", "r") as f:
+    #Import the data from file (JSON_PATH)
+    with open(JSON_PATH, "r") as f:
         rows = json.load(f)
 
 else:
@@ -142,9 +148,9 @@ else:
                     "URL": amazon_url
                 })
                 
-                #Convert the output dictionary to json and save it to a file called current_prices.json.
+                #Convert the output dictionary to json and save it to the output variable (JSON_PATH). Which is a file called current_prices.json.
                 rows_json = json.dumps(rows, indent=2)
-                with open("current_prices.json", "w") as f:
+                with open(JSON_PATH, "w") as f:
                     f.write(rows_json)
 
                 #print(flavor)
