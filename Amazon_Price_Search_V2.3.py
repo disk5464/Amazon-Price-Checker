@@ -212,10 +212,14 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 #################################################################
-#This section will build the streamlit webpage. First set the title of the browser tab and create a header on the top of the page
+#This section will build the streamlit webpage. First set the title of the browser tab and create a header on the top of the page.
 st.set_page_config(page_title="Price Tracker", layout="wide")
 st.markdown("<h1 style='text-align:center; margin-bottom: 0;'>Amazon Energy Drink Price Tracker</h1>", unsafe_allow_html=True)
 st.markdown("<h3 style='text-align:center; margin-bottom: 0;'>This table will show you the current prices of Ghost energy on Amazon</h1>", unsafe_allow_html=True)
+
+#Then get the last modified date of the json file and display it below the title. This way we can tell when the data was last updated.
+lastModifiedTime = datetime.datetime.fromtimestamp(os.stat(JSON_PATH).st_atime).strftime("%m/%d/%y")
+st.markdown(f"<h3 style='text-align:center; margin-bottom: 0;'>Data last updated: {time.strftime(lastModifiedTime)}</h1>", unsafe_allow_html=True)
 
 #Since we are not using an actual table or a data frame we need to build the table row by row. This sets the header row. First declair the header variables
 headerRow1, headerRow2, headerRow3, headerRow4 = st.columns([1, 1, 1, 1])
